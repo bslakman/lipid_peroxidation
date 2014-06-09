@@ -51,10 +51,10 @@ simulator(
 )
 
 model(
-    toleranceKeepInEdge=0.0,
-    toleranceMoveToCore=0.5,
+    toleranceKeepInEdge=0.01,
+    toleranceMoveToCore=0.1,
     toleranceInterruptSimulation=0.5,
-    maximumEdgeSpecies=100000
+    maximumEdgeSpecies=10000
 )
 
 # quantumMechanics(
