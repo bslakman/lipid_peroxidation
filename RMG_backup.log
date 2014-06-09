@@ -1,0 +1,772 @@
+Global RMG Settings:
+   database.directory   = /Users/belinda/Code/RMG-database/input (Default, relative to RMG-Py source code)
+RMG execution initiated at Fri Jun  6 12:24:18 2014
+
+###################################################
+# RMG-Py - Reaction Mechanism Generator in Python #
+# Version: Early 2013                             #
+# Authors: RMG Developers (rmg_dev@mit.edu)       #
+# P.I.s:   William H. Green (whgreen@mit.edu)     #
+#          Richard H. West (r.west@neu.edu)       #
+# Website: http://greengroup.github.com/RMG-Py/   #
+###################################################
+
+The current git HEAD is:
+	1ce2baa8e969e93474803261f725aaa30ba1d423
+	Fri Jun 6 11:44:42 2014 -0400
+
+Reading input file "/Users/belinda/Code/RMG-Py/examples/rmg/lipid-peroxidation/input.py"...
+
+Loading thermodynamics library from primaryThermoLibrary.py in /Users/belinda/Code/RMG-database/input/thermo/libraries...
+Loading thermodynamics group database from /Users/belinda/Code/RMG-database/input/thermo/groups...
+Loading transport library from GRI-Mech.py in /Users/belinda/Code/RMG-database/input/transport/libraries...
+Loading transport library from PrimaryTransportLibrary.py in /Users/belinda/Code/RMG-database/input/transport/libraries...
+Loading transport group database from /Users/belinda/Code/RMG-database/input/transport/groups...
+Loading the user-specified kinetics families from /Users/belinda/Code/RMG-database/input/kinetics/families
+Loading frequencies group database from /Users/belinda/Code/RMG-database/input/statmech/groups...
+Loading Platts additivity group database from /Users/belinda/Code/RMG-database/input/solvation/groups...
+Adding rate rules from training set in kinetics families...
+Filling in rate rules in kinetics families by averaging...
+Generating thermodynamics for new species...
+Generating kinetics for new reactions...
+
+Summary of Model Enlargement
+----------------------------
+Added 0 new core species
+Created 0 new edge species
+Added 0 new core reactions
+Created 0 new edge reactions
+
+After model enlargement:
+    The model core has 0 species and 0 reactions
+    The model edge has 0 species and 0 reactions
+
+
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Found thermo for OH in thermo library
+Found thermo for O2_(T) in thermo library
+Adding species lin_acid(1) to model core
+Adding species OH(2) to model core
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=189 label="O_(T)">, <Entry index=488 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="X_H_or_Xrad_H_Xbirad_H_Xtrirad_H">, <Entry index=2 label="Y_rad_birad_trirad_quadrad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=189 label="O_(T)">, <Entry index=488 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="X_H_or_Xrad_H_Xbirad_H_Xtrirad_H">, <Entry index=2 label="Y_rad_birad_trirad_quadrad">]. Assuming the first match is the better one.
+Adding species O2_(T)(3) to model core
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=189 label="O_(T)">, <Entry index=488 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="X_H_or_Xrad_H_Xbirad_H_Xtrirad_H">, <Entry index=2 label="Y_rad_birad_trirad_quadrad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=189 label="O_(T)">, <Entry index=488 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="X_H_or_Xrad_H_Xbirad_H_Xtrirad_H">, <Entry index=2 label="Y_rad_birad_trirad_quadrad">]. Assuming the first match is the better one.
+Generating thermodynamics for new species...
+Warning: For <Molecule "CCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Found thermo for [H] in thermo library
+Warning: For <Molecule "CCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "C=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "C=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCC=CCCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCC=CCCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC=CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC=CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "C=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "C=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Found thermo for O in thermo library
+Warning: Average RMS error in heat capacity fit to CCCCC[CH][CH]CC=CCCCCCCCC(=O)O_(S)(60) = 0.252649*R
+Warning: For <Molecule "CCCCCCCCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCCCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CC[CH][CH]CCCCCCCC(=O)O_(S)(61) = 0.252649*R
+Warning: For <Molecule "CCCCCC=CCCCCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCCCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC1CCCC1CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC1CCCC1CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to C=C(O)OCCCCCCC=CCC=CCCCCC(63) = 0.20255*R
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCC=C(O)O(64) = 0.20868*R
+Warning: Average RMS error in heat capacity fit to CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) = 0.223784*R
+Warning: For <Molecule "CCCCCCCCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCCCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) = 0.223784*R
+Warning: For <Molecule "CCCCCC=CCCCCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCCCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) = 0.223784*R
+Warning: For <Molecule "CCCCCCCCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCCCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) = 0.223784*R
+Warning: For <Molecule "CCCCCC=CCCCCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCCCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCCC([O])O(69) = 0.202678*R
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCC[C](O)O(70) = 0.204067*R
+Warning: Average RMS error in heat capacity fit to CCCCC[CH]C(CC=CCCCCCCCC(=O)O)C([CH]CCCCC)CC=CCCCCCCCC(=O)O_(S)(71) = 0.454738*R
+Warning: For <Molecule "CCCCCCC(CC=CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCC(CC=CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCC(CC=CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCC(CC=CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCC[CH]C(CC=CCCCCCCCC(=O)O)C([CH]CCCCCCCC(=O)O)CC=CCCCCC_(S)(72) = 0.454738*R
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCC[CH]C(CC=CCCCCCCCC(=O)O)C([CH]CC=CCCCCCCCC(=O)O)CCCCC_(S)(73) = 0.454738*R
+Warning: For <Molecule "CCCCCCC(CC=CCCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCC(CC=CCCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCC(CC=CCCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCC(CC=CCCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCC[CH]C(CC=CCCCCCCCC(=O)O)C([CH]CC=CCCCCC)CCCCCCCC(=O)O_(S)(74) = 0.454738*R
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCC[CH]C(CC=CCCCCCCCC(=O)O)O[C](O)CCCCCCCC=CCC=CCCCCC_(S)(75) = 0.401397*R
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)OC(CC=CCCCCCCCC(=O)O)CCCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)OC(CC=CCCCCCCCC(=O)O)CCCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCC[CH]C(CC=CCCCCCCCC(=O)O)C([O])(O)CCCCCCCC=CCC=CCCCCC_(S)(76) = 0.389369*R
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)(O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)(O)C(CC=CCCCCCCCC(=O)O)CCCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC([CH]CCCCCCCC(=O)O)C([CH]CCCCCCCC(=O)O)CC=CCCCCC_(S)(77) = 0.454738*R
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)C(CC=CCCCCC)CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)C(CC=CCCCCC)CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)C(CC=CCCCCC)CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)C(CC=CCCCCC)CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC([CH]CCCCCCCC(=O)O)C([CH]CC=CCCCCCCCC(=O)O)CCCCC_(S)(78) = 0.454738*R
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CC[CH]C(CCCCCCCC(=O)O)C([CH]CCCCCCCC(=O)O)CC=CCCCCC_(S)(79) = 0.454738*R
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CC=CCCCCC)CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CC=CCCCCC)CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CC=CCCCCC)CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CC=CCCCCC)CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCC[C](O)OC([CH]CCCCCCCC(=O)O)CC=CCCCCC_(S)(80) = 0.401397*R
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)OC(CC=CCCCCC)CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)OC(CC=CCCCCC)CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCCC([O])(O)C([CH]CCCCCCCC(=O)O)CC=CCCCCC_(S)(81) = 0.389369*R
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)(O)C(CC=CCCCCC)CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)(O)C(CC=CCCCCC)CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC([CH]CC=CCCCCCCCC(=O)O)C([CH]CC=CCCCCCCCC(=O)O)CCCCC_(S)(82) = 0.454738*R
+Warning: For <Molecule "CCCCCC(CCC=CCCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC(CCC=CCCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC(CCC=CCCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC(CCC=CCCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CC[CH]C(CCCCCCCC(=O)O)C([CH]CC=CCCCCCCCC(=O)O)CCCCC_(S)(83) = 0.454738*R
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCC[C](O)OC([CH]CC=CCCCCCCCC(=O)O)CCCCC_(S)(84) = 0.401397*R
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)OC(CCC=CCCCCCCCC(=O)O)CCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)OC(CCC=CCCCCCCCC(=O)O)CCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCCC([O])(O)C([CH]CC=CCCCCCCCC(=O)O)CCCCC_(S)(85) = 0.389369*R
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)(O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)(O)C(CCC=CCCCCCCCC(=O)O)CCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CC[CH]C(CCCCCCCC(=O)O)C([CH]CC=CCCCCC)CCCCCCCC(=O)O_(S)(86) = 0.454738*R
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CCC=CCCCCC)CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CCC=CCCCCC)CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CCC=CCCCCC)CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)C(CCC=CCCCCC)CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CC[CH]C(CCCCCCCC(=O)O)O[C](O)CCCCCCCC=CCC=CCCCCC_(S)(87) = 0.401397*R
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)OC(CCC=CCCCCC)CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)OC(CCC=CCCCCC)CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CC[CH]C(CCCCCCCC(=O)O)C([O])(O)CCCCCCCC=CCC=CCCCCC_(S)(88) = 0.389369*R
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)(O)C(CCC=CCCCCC)CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC(O)(O)C(CCC=CCCCCC)CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCC[C](O)OO[C](O)CCCCCCCC=CCC=CCCCCC_(S)(89) = 0.432553*R
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCC[C](O)OC([O])(O)CCCCCCCC=CCC=CCCCCC_(S)(90) = 0.393976*R
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCCC([O])(O)C([O])(O)CCCCCCCC=CCC=CCCCCC_(S)(91) = 0.338859*R
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCCC1(O)OOC1(O)CCCCCCCC=CCC=CCCCCC(92) = 0.305041*R
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCCC1(O)OC(O)(CCCCCCCC=CCC=CCCCCC)O1(93) = 0.328984*R
+Warning: Average RMS error in heat capacity fit to CCCCCC1C(CC=CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)C1CCCCC(94) = 0.350888*R
+Warning: For <Molecule "CCCCCC1C(CC=CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)C1CCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC1C(CC=CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)C1CCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC1C(CC=CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)C1CCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC1C(CC=CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)C1CCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC1C(CC=CCCCCCCCC(=O)O)C(CCCCC)C1CCCCCCCC(=O)O(95) = 0.350888*R
+Warning: For <Molecule "CCCCCC=CCC1C(CC=CCCCCCCCC(=O)O)C(CCCCC)C1CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC1C(CC=CCCCCCCCC(=O)O)C(CCCCC)C1CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC1C(CC=CCCCCCCCC(=O)O)C(CCCCC)C1CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC1C(CC=CCCCCCCCC(=O)O)C(CCCCC)C1CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC1C(CC=CCCCCCCCC(=O)O)C(CCCCC)C1CC=CCCCCCCCC(=O)O(96) = 0.350888*R
+Warning: For <Molecule "CCCCCC1C(CC=CCCCCCCCC(=O)O)C(CCCCC)C1CC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC1C(CC=CCCCCCCCC(=O)O)C(CCCCC)C1CC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC1C(CC=CCCCCCCCC(=O)O)C(CCCCC)C1CC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC1C(CC=CCCCCCCCC(=O)O)C(CCCCC)C1CC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC1C(CCCCC)C(CC=CCCCCCCCC(=O)O)C1CCCCCCCC(=O)O(97) = 0.350888*R
+Warning: For <Molecule "CCCCCC=CCC1C(CCCCC)C(CC=CCCCCCCCC(=O)O)C1CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC1C(CCCCC)C(CC=CCCCCCCCC(=O)O)C1CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC1C(CCCCC)C(CC=CCCCCCCCC(=O)O)C1CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC1C(CCCCC)C(CC=CCCCCCCCC(=O)O)C1CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCCC1(O)OC(CC=CCCCCCCCC(=O)O)C1CCCCC(98) = 0.317598*R
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC1(O)OC(CC=CCCCCCCCC(=O)O)C1CCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC1(O)OC(CC=CCCCCCCCC(=O)O)C1CCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCCC1(O)OC(CCCCC)C1CC=CCCCCCCCC(=O)O(99) = 0.317598*R
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC1(O)OC(CCCCC)C1CC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC1(O)OC(CCCCC)C1CC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC1C(CC=CCCCCC)C(CCCCCCCC(=O)O)C1CCCCCCCC(=O)O(100) = 0.350888*R
+Warning: For <Molecule "CCCCCC=CCC1C(CC=CCCCCC)C(CCCCCCCC(=O)O)C1CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC1C(CC=CCCCCC)C(CCCCCCCC(=O)O)C1CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC1C(CC=CCCCCC)C(CCCCCCCC(=O)O)C1CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC1C(CC=CCCCCC)C(CCCCCCCC(=O)O)C1CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC1C(CCCCCCCC(=O)O)C(CC=CCCCCC)C1CCCCCCCC(=O)O(101) = 0.350888*R
+Warning: For <Molecule "CCCCCC=CCC1C(CCCCCCCC(=O)O)C(CC=CCCCCC)C1CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC1C(CCCCCCCC(=O)O)C(CC=CCCCCC)C1CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC1C(CCCCCCCC(=O)O)C(CC=CCCCCC)C1CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC1C(CCCCCCCC(=O)O)C(CC=CCCCCC)C1CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCCC1(O)OC(CC=CCCCCC)C1CCCCCCCC(=O)O(102) = 0.317598*R
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC1(O)OC(CC=CCCCCC)C1CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC1(O)OC(CC=CCCCCC)C1CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCCC1(O)OC(CCCCCCCC(=O)O)C1CC=CCCCCC(103) = 0.317598*R
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC1(O)OC(CCCCCCCC(=O)O)C1CC=CCCCCC">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC=CCCCCCCCC1(O)OC(CCCCCCCC(=O)O)C1CC=CCCCCC">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Found thermo for [O]_(T) in thermo library
+Found thermo for [O]_(S) in thermo library
+Warning: Average RMS error in heat capacity fit to CCCCCC(O)[CH]CC=CCCCCCCCC(=O)O(106) = 0.212293*R
+Warning: For <Molecule "CCCCCC(O)CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC(O)CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CC[CH]C(O)CCCCCCCC(=O)O(107) = 0.212293*R
+Warning: For <Molecule "CCCCCC=CCCC(O)CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(O)CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCC[CH]C(O)CC=CCCCCCCCC(=O)O(108) = 0.212293*R
+Warning: For <Molecule "CCCCCCC(O)CC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCC(O)CC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC(O)[CH]CCCCCCCC(=O)O(109) = 0.212293*R
+Warning: For <Molecule "CCCCCC=CCC(O)CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC(O)CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCCC([O])(O)O(110) = 0.200871*R
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCC[C](O)OO(111) = 0.218092*R
+Warning: Average RMS error in heat capacity fit to CCCCCC([CH]CC=CCCCCCCCC(=O)O)O[O]_(T)(113) = 0.206583*R
+Warning: For <Molecule "CCCCCC(CCC=CCCCCCCCC(=O)O)OO">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC(CCC=CCCCCCCCC(=O)O)OO">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CC[CH]C(CCCCCCCC(=O)O)O[O]_(T)(114) = 0.206583*R
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)OO">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(CCCCCCCC(=O)O)OO">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCC[CH]C(CC=CCCCCCCCC(=O)O)O[O]_(T)(115) = 0.206583*R
+Warning: For <Molecule "CCCCCCC(CC=CCCCCCCCC(=O)O)OO">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCC(CC=CCCCCCCCC(=O)O)OO">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC([CH]CCCCCCCC(=O)O)O[O]_(T)(116) = 0.206583*R
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)OO">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC(CCCCCCCCC(=O)O)OO">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: Average RMS error in heat capacity fit to CCCCCC=CCC=CCCCCCCCC([O])(O)O[O]_(T)(117) = 0.20604*R
+Generating kinetics for new reactions...
+For reaction lin_acid(1) + lin_acid(1) <=> CCCCCC=CCC=CCCCCCCCC1(O)OOC1(O)CCCCCCCC=CCC=CCCCCC(92), Ea raised from 455.5 to 462.1 kJ/mol to match endothermicity of reaction.
+For reaction lin_acid(1) + OH(2) <=> CCCCCC=CCC=CCCCCCCC[C](O)OO(111), Ea raised from 242.7 to 246.8 kJ/mol to match endothermicity of reaction.
+For reaction lin_acid(1) + O2_(T)(3) <=> CCCCCC([CH]CC=CCCCCCCCC(=O)O)O[O]_(T)(113), Ea raised from 135.2 to 137.5 kJ/mol to match endothermicity of reaction.
+For reaction lin_acid(1) + O2_(T)(3) <=> CCCCCC=CC[CH]C(CCCCCCCC(=O)O)O[O]_(T)(114), Ea raised from 135.2 to 137.5 kJ/mol to match endothermicity of reaction.
+For reaction lin_acid(1) + O2_(T)(3) <=> CCCCC[CH]C(CC=CCCCCCCCC(=O)O)O[O]_(T)(115), Ea raised from 135.2 to 137.5 kJ/mol to match endothermicity of reaction.
+For reaction lin_acid(1) + O2_(T)(3) <=> CCCCCC=CCC([CH]CCCCCCCC(=O)O)O[O]_(T)(116), Ea raised from 135.2 to 137.5 kJ/mol to match endothermicity of reaction.
+For reaction lin_acid(1) + O2_(T)(3) <=> CCCCCC=CCC=CCCCCCCCC([O])(O)O[O]_(T)(117), Ea raised from 272.1 to 274.9 kJ/mol to match endothermicity of reaction.
+
+Summary of Model Enlargement
+----------------------------
+Added 3 new core species
+    lin_acid(1)
+    OH(2)
+    O2_(T)(3)
+Created 1 new edge species
+    [O]O(118)
+Added 0 new core reactions
+Created 247 new edge reactions
+    [CH2]CC=CCC=CCCCCCCCC(=O)O(4) + [CH2]CC(5) <=> lin_acid(1)
+    [CH2]CCC=CCC=CCCCCCCCC(=O)O(6) + C[CH2](7) <=> lin_acid(1)
+    CC[CH]CCC=CCC=CCCCCCCCC(=O)O(8) + [H](9) <=> lin_acid(1)
+    [CH2]CCCC(=O)O(10) + [CH2]CCC=CCC=CCCCCC(11) <=> lin_acid(1)
+    [CH2]CCCCC(=O)O(12) + [CH2]CC=CCC=CCCCCC(13) <=> lin_acid(1)
+    [H](9) + CCCCCC=CCC=CCC[CH]CCCCC(=O)O(14) <=> lin_acid(1)
+    [CH2]CCC(=O)O(15) + [CH2]CCCC=CCC=CCCCCC(16) <=> lin_acid(1)
+    [H](9) + CCCCCC=CCC=CCCC[CH]CCCC(=O)O(17) <=> lin_acid(1)
+    [CH2]CC(=O)O(18) + [CH2]CCCCC=CCC=CCCCCC(19) <=> lin_acid(1)
+    [H](9) + CCCCCC=CCC=CCCCC[CH]CCC(=O)O(20) <=> lin_acid(1)
+    [CH2]C=CCC=CCCCCCCCC(=O)O(21) + [CH2]CCC(22) <=> lin_acid(1)
+    [H](9) + CCC[CH]CC=CCC=CCCCCCCCC(=O)O(23) <=> lin_acid(1)
+    [CH2]CCCCCC(=O)O(24) + [CH2]C=CCC=CCCCCC(25) <=> lin_acid(1)
+    [H](9) + CCCCCC=CCC=CC[CH]CCCCCC(=O)O(26) <=> lin_acid(1)
+    [CH2]C(=O)O(27) + [CH2]CCCCCC=CCC=CCCCCC(28) <=> lin_acid(1)
+    [H](9) + CCCCCC=CCC=CCCCCC[CH]CC(=O)O(29) <=> lin_acid(1)
+    [CH2]CCCC=CCC=CCCCCCCCC(=O)O(30) + [CH3](31) <=> lin_acid(1)
+    [H](9) + C[CH]CCCC=CCC=CCCCCCCCC(=O)O(32) <=> lin_acid(1)
+    [CH]=CCC=CCCCCCCCC(=O)O(33) + [CH2]CCCC(34) <=> lin_acid(1)
+    [H](9) + CCCC[CH]C=CCC=CCCCCCCCC(=O)O(35) <=> lin_acid(1)
+    [CH2]CCCCCCC(=O)O(36) + [CH]=CCC=CCCCCC(37) <=> lin_acid(1)
+    [H](9) + CCCCCC=CCC=C[CH]CCCCCCC(=O)O(38) <=> lin_acid(1)
+    O=[C]O(39) + [CH2]CCCCCCC=CCC=CCCCCC(40) <=> lin_acid(1)
+    [H](9) + CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) <=> lin_acid(1)
+    [CH2]C=CCCCCCCCC(=O)O(42) + [CH]=CCCCCC(43) <=> lin_acid(1)
+    [CH]=CCCCCCCCC(=O)O(44) + [CH2]C=CCCCCC(45) <=> lin_acid(1)
+    [H](9) + CCCCCC=C[CH]C=CCCCCCCCC(=O)O(46) <=> lin_acid(1)
+    [H](9) + [CH2]CCCCC=CCC=CCCCCCCCC(=O)O(47) <=> lin_acid(1)
+    [H](9) + CCCCC[C]=CCC=CCCCCCCCC(=O)O(48) <=> lin_acid(1)
+    [H](9) + CCCCCC=CCC=[C]CCCCCCCC(=O)O(49) <=> lin_acid(1)
+    [H](9) + CCCCCC=[C]CC=CCCCCCCCC(=O)O(50) <=> lin_acid(1)
+    [H](9) + CCCCCC=CC[C]=CCCCCCCCC(=O)O(51) <=> lin_acid(1)
+    OH(2) + CCCCCC=CCC=CCCCCCCC[C]=O(52) <=> lin_acid(1)
+    [H](9) + CCCCCC=CCC=CCCCCCCCC([O])=O(53) <=> lin_acid(1)
+    O=C=O(54) + CCCCCC=CCC=CCCCCCCC(55) <=> lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC=C=O(56) + O(57) <=> lin_acid(1)
+    C=C=O(58) + CCCCCC=CCC=CCCCCCCO(59) <=> lin_acid(1)
+    CCCCC[CH][CH]CC=CCCCCCCCC(=O)O_(S)(60) <=> lin_acid(1)
+    CCCCCC=CC[CH][CH]CCCCCCCC(=O)O_(S)(61) <=> lin_acid(1)
+    CCCCCC1[CH]C[CH]C1CCCCCCCC(=O)O_(S)(62) <=> lin_acid(1)
+    C=C(O)OCCCCCCC=CCC=CCCCCC(63) <=> lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC=C(O)O(64) <=> lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + C[CH]CCCC=CCC=CCCCCCCCC(=O)O(32) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + C[CH]CCCC=CCC=CCCCCCCCC(=O)O(32) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + C[CH]CCCC=CCC=CCCCCCCCC(=O)O(32) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + C[CH]CCCC=CCC=CCCCCCCCC(=O)O(32) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + C[CH]CCCC=CCC=CCCCCCCCC(=O)O(32) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + C[CH]CCCC=CCC=CCCCCCCCC(=O)O(32) <=> lin_acid(1) + lin_acid(1)
+    CC[CH]CCC=CCC=CCCCCCCCC(=O)O(8) + CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) <=> lin_acid(1) + lin_acid(1)
+    CC[CH]CCC=CCC=CCCCCCCCC(=O)O(8) + CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) <=> lin_acid(1) + lin_acid(1)
+    CC[CH]CCC=CCC=CCCCCCCCC(=O)O(8) + CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) <=> lin_acid(1) + lin_acid(1)
+    CC[CH]CCC=CCC=CCCCCCCCC(=O)O(8) + CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) <=> lin_acid(1) + lin_acid(1)
+    CC[CH]CCC=CCC=CCCCCCCCC(=O)O(8) + CCCCCC=CCC=CCCCCCCCC([O])O(69) <=> lin_acid(1) + lin_acid(1)
+    CC[CH]CCC=CCC=CCCCCCCCC(=O)O(8) + CCCCCC=CCC=CCCCCCCC[C](O)O(70) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCC[CH]CC=CCC=CCCCCCCCC(=O)O(23) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCC[CH]CC=CCC=CCCCCCCCC(=O)O(23) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCC[CH]CC=CCC=CCCCCCCCC(=O)O(23) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCC[CH]CC=CCC=CCCCCCCCC(=O)O(23) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCC[CH]CC=CCC=CCCCCCCCC(=O)O(23) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCC[CH]CC=CCC=CCCCCCCCC(=O)O(23) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCCCCC=CCC=CC[CH]CCCCCC(=O)O(26) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCCCCC=CCC=CC[CH]CCCCCC(=O)O(26) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCCCCC=CCC=CC[CH]CCCCCC(=O)O(26) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCCCCC=CCC=CC[CH]CCCCCC(=O)O(26) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCCCCC=CCC=CC[CH]CCCCCC(=O)O(26) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCCCCC=CCC=CC[CH]CCCCCC(=O)O(26) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCC[CH]CCCCC(=O)O(14) + CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCC[CH]CCCCC(=O)O(14) + CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCC[CH]CCCCC(=O)O(14) + CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCC[CH]CCCCC(=O)O(14) + CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCC[CH]CCCCC(=O)O(14) + CCCCCC=CCC=CCCCCCCCC([O])O(69) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCC[CH]CCCCC(=O)O(14) + CCCCCC=CCC=CCCCCCCC[C](O)O(70) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCCCCC=CCC=CCCC[CH]CCCC(=O)O(17) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCCCCC=CCC=CCCC[CH]CCCC(=O)O(17) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCCCCC=CCC=CCCC[CH]CCCC(=O)O(17) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCCCCC=CCC=CCCC[CH]CCCC(=O)O(17) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCCCCC=CCC=CCCC[CH]CCCC(=O)O(17) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCCCCC=CCC=CCCC[CH]CCCC(=O)O(17) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCCCCC=CCC=CCCCC[CH]CCC(=O)O(20) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCCCCC=CCC=CCCCC[CH]CCC(=O)O(20) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCCCCC=CCC=CCCCC[CH]CCC(=O)O(20) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCCCCC=CCC=CCCCC[CH]CCC(=O)O(20) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCCCCC=CCC=CCCCC[CH]CCC(=O)O(20) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCCCCC=CCC=CCCCC[CH]CCC(=O)O(20) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCCCCC=CCC=CCCCCC[CH]CC(=O)O(29) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCCCCC=CCC=CCCCCC[CH]CC(=O)O(29) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCCCCC=CCC=CCCCCC[CH]CC(=O)O(29) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCCCCC=CCC=CCCCCC[CH]CC(=O)O(29) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCCCCC=CCC=CCCCCC[CH]CC(=O)O(29) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCCCCC=CCC=CCCCCC[CH]CC(=O)O(29) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCCC[CH]C=CCC=CCCCCCCCC(=O)O(35) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCCC[CH]C=CCC=CCCCCCCCC(=O)O(35) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCCC[CH]C=CCC=CCCCCCCCC(=O)O(35) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCCC[CH]C=CCC=CCCCCCCCC(=O)O(35) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCCC[CH]C=CCC=CCCCCCCCC(=O)O(35) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCCC[CH]C=CCC=CCCCCCCCC(=O)O(35) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCCCCC=CCC=C[CH]CCCCCCC(=O)O(38) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCCCCC=CCC=C[CH]CCCCCCC(=O)O(38) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCCCCC=CCC=C[CH]CCCCCCC(=O)O(38) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCCCCC=CCC=C[CH]CCCCCCC(=O)O(38) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCCCCC=CCC=C[CH]CCCCCCC(=O)O(38) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCCCCC=CCC=C[CH]CCCCCCC(=O)O(38) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCCCCC=C[CH]C=CCCCCCCCC(=O)O(46) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCCCCC=C[CH]C=CCCCCCCCC(=O)O(46) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCCCCC=C[CH]C=CCCCCCCCC(=O)O(46) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCCCCC=C[CH]C=CCCCCCCCC(=O)O(46) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCCCCC=C[CH]C=CCCCCCCCC(=O)O(46) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCCCCC=C[CH]C=CCCCCCCCC(=O)O(46) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + [CH2]CCCCC=CCC=CCCCCCCCC(=O)O(47) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + [CH2]CCCCC=CCC=CCCCCCCCC(=O)O(47) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + [CH2]CCCCC=CCC=CCCCCCCCC(=O)O(47) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + [CH2]CCCCC=CCC=CCCCCCCCC(=O)O(47) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + [CH2]CCCCC=CCC=CCCCCCCCC(=O)O(47) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + [CH2]CCCCC=CCC=CCCCCCCCC(=O)O(47) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCCCC[C]=CCC=CCCCCCCCC(=O)O(48) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCCCC[C]=CCC=CCCCCCCCC(=O)O(48) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCCCC[C]=CCC=CCCCCCCCC(=O)O(48) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCCCC[C]=CCC=CCCCCCCCC(=O)O(48) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCCCC[C]=CCC=CCCCCCCCC(=O)O(48) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCCCC[C]=CCC=CCCCCCCCC(=O)O(48) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCCCCC=[C]CC=CCCCCCCCC(=O)O(50) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCCCCC=[C]CC=CCCCCCCCC(=O)O(50) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCCCCC=[C]CC=CCCCCCCCC(=O)O(50) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCCCCC=[C]CC=CCCCCCCCC(=O)O(50) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCCCCC=[C]CC=CCCCCCCCC(=O)O(50) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCCCCC=[C]CC=CCCCCCCCC(=O)O(50) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCCCCC=CC[C]=CCCCCCCCC(=O)O(51) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCCCCC=CC[C]=CCCCCCCCC(=O)O(51) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCCCCC=CC[C]=CCCCCCCCC(=O)O(51) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCCCCC=CC[C]=CCCCCCCCC(=O)O(51) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCCCCC=CC[C]=CCCCCCCCC(=O)O(51) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCCCCC=CC[C]=CCCCCCCCC(=O)O(51) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCCCCC=CCC=[C]CCCCCCCC(=O)O(49) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCCCCC=CCC=[C]CCCCCCCC(=O)O(49) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCCCCC=CCC=[C]CCCCCCCC(=O)O(49) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCCCCC=CCC=[C]CCCCCCCC(=O)O(49) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCCCCC=CCC=[C]CCCCCCCC(=O)O(49) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCCCCC=CCC=[C]CCCCCCCC(=O)O(49) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + CCCCCC=CCC=CCCCCCCCC([O])=O(53) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + CCCCCC=CCC=CCCCCCCCC([O])=O(53) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + CCCCCC=CCC=CCCCCCCCC([O])=O(53) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + CCCCCC=CCC=CCCCCCCCC([O])=O(53) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + CCCCCC=CCC=CCCCCCCCC([O])=O(53) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + CCCCCC=CCC=CCCCCCCCC([O])=O(53) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]C(CC=CCCCCCCCC(=O)O)C([CH]CCCCC)CC=CCCCCCCCC(=O)O_(S)(71) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]C(CC=CCCCCCCCC(=O)O)C([CH]CCCCCCCC(=O)O)CC=CCCCCC_(S)(72) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]C(CC=CCCCCCCCC(=O)O)C([CH]CC=CCCCCCCCC(=O)O)CCCCC_(S)(73) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]C(CC=CCCCCCCCC(=O)O)C([CH]CC=CCCCCC)CCCCCCCC(=O)O_(S)(74) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]C(CC=CCCCCCCCC(=O)O)O[C](O)CCCCCCCC=CCC=CCCCCC_(S)(75) <=> lin_acid(1) + lin_acid(1)
+    CCCCC[CH]C(CC=CCCCCCCCC(=O)O)C([O])(O)CCCCCCCC=CCC=CCCCCC_(S)(76) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC([CH]CCCCCCCC(=O)O)C([CH]CCCCCCCC(=O)O)CC=CCCCCC_(S)(77) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC([CH]CCCCCCCC(=O)O)C([CH]CC=CCCCCCCCC(=O)O)CCCCC_(S)(78) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]C(CCCCCCCC(=O)O)C([CH]CCCCCCCC(=O)O)CC=CCCCCC_(S)(79) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)OC([CH]CCCCCCCC(=O)O)CC=CCCCCC_(S)(80) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])(O)C([CH]CCCCCCCC(=O)O)CC=CCCCCC_(S)(81) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC([CH]CC=CCCCCCCCC(=O)O)C([CH]CC=CCCCCCCCC(=O)O)CCCCC_(S)(82) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]C(CCCCCCCC(=O)O)C([CH]CC=CCCCCCCCC(=O)O)CCCCC_(S)(83) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)OC([CH]CC=CCCCCCCCC(=O)O)CCCCC_(S)(84) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])(O)C([CH]CC=CCCCCCCCC(=O)O)CCCCC_(S)(85) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]C(CCCCCCCC(=O)O)C([CH]CC=CCCCCC)CCCCCCCC(=O)O_(S)(86) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]C(CCCCCCCC(=O)O)O[C](O)CCCCCCCC=CCC=CCCCCC_(S)(87) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CC[CH]C(CCCCCCCC(=O)O)C([O])(O)CCCCCCCC=CCC=CCCCCC_(S)(88) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)OO[C](O)CCCCCCCC=CCC=CCCCCC_(S)(89) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCC[C](O)OC([O])(O)CCCCCCCC=CCC=CCCCCC_(S)(90) <=> lin_acid(1) + lin_acid(1)
+    CCCCCC=CCC=CCCCCCCCC([O])(O)C([O])(O)CCCCCCCC=CCC=CCCCCC_(S)(91) <=> lin_acid(1) + lin_acid(1)
+    lin_acid(1) + lin_acid(1) <=> CCCCCC=CCC=CCCCCCCCC1(O)OOC1(O)CCCCCCCC=CCC=CCCCCC(92)
+    lin_acid(1) + lin_acid(1) <=> CCCCCC=CCC=CCCCCCCCC1(O)OC(O)(CCCCCCCC=CCC=CCCCCC)O1(93)
+    lin_acid(1) + lin_acid(1) <=> CCCCCC1C(CC=CCCCCCCCC(=O)O)C(CC=CCCCCCCCC(=O)O)C1CCCCC(94)
+    lin_acid(1) + lin_acid(1) <=> CCCCCC=CCC1C(CC=CCCCCCCCC(=O)O)C(CCCCC)C1CCCCCCCC(=O)O(95)
+    lin_acid(1) + lin_acid(1) <=> CCCCCC1C(CC=CCCCCCCCC(=O)O)C(CCCCC)C1CC=CCCCCCCCC(=O)O(96)
+    lin_acid(1) + lin_acid(1) <=> CCCCCC=CCC1C(CCCCC)C(CC=CCCCCCCCC(=O)O)C1CCCCCCCC(=O)O(97)
+    lin_acid(1) + lin_acid(1) <=> CCCCCC=CCC=CCCCCCCCC1(O)OC(CC=CCCCCCCCC(=O)O)C1CCCCC(98)
+    lin_acid(1) + lin_acid(1) <=> CCCCCC=CCC=CCCCCCCCC1(O)OC(CCCCC)C1CC=CCCCCCCCC(=O)O(99)
+    lin_acid(1) + lin_acid(1) <=> CCCCCC=CCC1C(CC=CCCCCC)C(CCCCCCCC(=O)O)C1CCCCCCCC(=O)O(100)
+    lin_acid(1) + lin_acid(1) <=> CCCCCC=CCC1C(CCCCCCCC(=O)O)C(CC=CCCCCC)C1CCCCCCCC(=O)O(101)
+    lin_acid(1) + lin_acid(1) <=> CCCCCC=CCC=CCCCCCCCC1(O)OC(CC=CCCCCC)C1CCCCCCCC(=O)O(102)
+    lin_acid(1) + lin_acid(1) <=> CCCCCC=CCC=CCCCCCCCC1(O)OC(CCCCCCCC(=O)O)C1CC=CCCCCC(103)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + [O]_(T)(104) <=> lin_acid(1) + OH(2)
+    CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) + [O]_(S)(105) <=> lin_acid(1) + OH(2)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + [O]_(T)(104) <=> lin_acid(1) + OH(2)
+    CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) + [O]_(S)(105) <=> lin_acid(1) + OH(2)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + [O]_(T)(104) <=> lin_acid(1) + OH(2)
+    CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) + [O]_(S)(105) <=> lin_acid(1) + OH(2)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + [O]_(T)(104) <=> lin_acid(1) + OH(2)
+    CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) + [O]_(S)(105) <=> lin_acid(1) + OH(2)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + [O]_(T)(104) <=> lin_acid(1) + OH(2)
+    CCCCCC=CCC=CCCCCCCCC([O])O(69) + [O]_(S)(105) <=> lin_acid(1) + OH(2)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + [O]_(T)(104) <=> lin_acid(1) + OH(2)
+    CCCCCC=CCC=CCCCCCCC[C](O)O(70) + [O]_(S)(105) <=> lin_acid(1) + OH(2)
+    lin_acid(1) + OH(2) <=> CCCCCC(O)[CH]CC=CCCCCCCCC(=O)O(106)
+    lin_acid(1) + OH(2) <=> CCCCCC=CC[CH]C(O)CCCCCCCC(=O)O(107)
+    lin_acid(1) + OH(2) <=> CCCCC[CH]C(O)CC=CCCCCCCCC(=O)O(108)
+    lin_acid(1) + OH(2) <=> CCCCCC=CCC(O)[CH]CCCCCCCC(=O)O(109)
+    lin_acid(1) + OH(2) <=> CCCCCC=CCC=CCCCCCCCC([O])(O)O(110)
+    lin_acid(1) + OH(2) <=> CCCCCC=CCC=CCCCCCCC[C](O)OO(111)
+    lin_acid(1) + OH(2) <=> CC[CH]CCC=CCC=CCCCCCCCC(=O)O(8) + O(57)
+    lin_acid(1) + OH(2) <=> CCCCCC=CCC=CCC[CH]CCCCC(=O)O(14) + O(57)
+    lin_acid(1) + OH(2) <=> CCCCCC=CCC=CCCC[CH]CCCC(=O)O(17) + O(57)
+    lin_acid(1) + OH(2) <=> CCCCCC=CCC=CCCCC[CH]CCC(=O)O(20) + O(57)
+    lin_acid(1) + OH(2) <=> CCC[CH]CC=CCC=CCCCCCCCC(=O)O(23) + O(57)
+    lin_acid(1) + OH(2) <=> CCCCCC=CCC=CC[CH]CCCCCC(=O)O(26) + O(57)
+    lin_acid(1) + OH(2) <=> CCCCCC=CCC=CCCCCC[CH]CC(=O)O(29) + O(57)
+    lin_acid(1) + OH(2) <=> C[CH]CCCC=CCC=CCCCCCCCC(=O)O(32) + O(57)
+    lin_acid(1) + OH(2) <=> CCCC[CH]C=CCC=CCCCCCCCC(=O)O(35) + O(57)
+    lin_acid(1) + OH(2) <=> CCCCCC=CCC=C[CH]CCCCCCC(=O)O(38) + O(57)
+    lin_acid(1) + OH(2) <=> CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) + O(57)
+    lin_acid(1) + OH(2) <=> CCCCCC=C[CH]C=CCCCCCCCC(=O)O(46) + O(57)
+    [CH2]CCCCC=CCC=CCCCCCCCC(=O)O(47) + O(57) <=> lin_acid(1) + OH(2)
+    lin_acid(1) + OH(2) <=> CCCCC[C]=CCC=CCCCCCCCC(=O)O(48) + O(57)
+    lin_acid(1) + OH(2) <=> CCCCCC=CCC=[C]CCCCCCCC(=O)O(49) + O(57)
+    lin_acid(1) + OH(2) <=> CCCCCC=[C]CC=CCCCCCCCC(=O)O(50) + O(57)
+    lin_acid(1) + OH(2) <=> CCCCCC=CC[C]=CCCCCCCCC(=O)O(51) + O(57)
+    lin_acid(1) + OH(2) <=> CCCCCC=CCC=CCCCCCCCC([O])=O(53) + O(57)
+    [O]_(T)(104) + O(57) <=> OH(2) + OH(2)
+    [O]_(S)(105) + O(57) <=> OH(2) + OH(2)
+    OH(2) + OH(2) <=> OO(112)
+    lin_acid(1) + O2_(T)(3) <=> CCCCCC([CH]CC=CCCCCCCCC(=O)O)O[O]_(T)(113)
+    lin_acid(1) + O2_(T)(3) <=> CCCCCC=CC[CH]C(CCCCCCCC(=O)O)O[O]_(T)(114)
+    lin_acid(1) + O2_(T)(3) <=> CCCCC[CH]C(CC=CCCCCCCCC(=O)O)O[O]_(T)(115)
+    lin_acid(1) + O2_(T)(3) <=> CCCCCC=CCC([CH]CCCCCCCC(=O)O)O[O]_(T)(116)
+    lin_acid(1) + O2_(T)(3) <=> CCCCCC=CCC=CCCCCCCCC([O])(O)O[O]_(T)(117)
+    lin_acid(1) + O2_(T)(3) <=> CC[CH]CCC=CCC=CCCCCCCCC(=O)O(8) + [O]O(118)
+    lin_acid(1) + O2_(T)(3) <=> CCCCCC=CCC=CCC[CH]CCCCC(=O)O(14) + [O]O(118)
+    lin_acid(1) + O2_(T)(3) <=> CCCCCC=CCC=CCCC[CH]CCCC(=O)O(17) + [O]O(118)
+    lin_acid(1) + O2_(T)(3) <=> CCCCCC=CCC=CCCCC[CH]CCC(=O)O(20) + [O]O(118)
+    lin_acid(1) + O2_(T)(3) <=> CCC[CH]CC=CCC=CCCCCCCCC(=O)O(23) + [O]O(118)
+    lin_acid(1) + O2_(T)(3) <=> CCCCCC=CCC=CC[CH]CCCCCC(=O)O(26) + [O]O(118)
+    lin_acid(1) + O2_(T)(3) <=> CCCCCC=CCC=CCCCCC[CH]CC(=O)O(29) + [O]O(118)
+    lin_acid(1) + O2_(T)(3) <=> C[CH]CCCC=CCC=CCCCCCCCC(=O)O(32) + [O]O(118)
+    CCCC[CH]C=CCC=CCCCCCCCC(=O)O(35) + [O]O(118) <=> lin_acid(1) + O2_(T)(3)
+    CCCCCC=CCC=C[CH]CCCCCCC(=O)O(38) + [O]O(118) <=> lin_acid(1) + O2_(T)(3)
+    CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) + [O]O(118) <=> lin_acid(1) + O2_(T)(3)
+    CCCCCC=C[CH]C=CCCCCCCCC(=O)O(46) + [O]O(118) <=> lin_acid(1) + O2_(T)(3)
+    [CH2]CCCCC=CCC=CCCCCCCCC(=O)O(47) + [O]O(118) <=> lin_acid(1) + O2_(T)(3)
+    CCCCC[C]=CCC=CCCCCCCCC(=O)O(48) + [O]O(118) <=> lin_acid(1) + O2_(T)(3)
+    CCCCCC=CCC=[C]CCCCCCCC(=O)O(49) + [O]O(118) <=> lin_acid(1) + O2_(T)(3)
+    CCCCCC=[C]CC=CCCCCCCCC(=O)O(50) + [O]O(118) <=> lin_acid(1) + O2_(T)(3)
+    CCCCCC=CC[C]=CCCCCCCCC(=O)O(51) + [O]O(118) <=> lin_acid(1) + O2_(T)(3)
+    CCCCCC=CCC=CCCCCCCCC([O])=O(53) + [O]O(118) <=> lin_acid(1) + O2_(T)(3)
+    [O]_(T)(104) + [O]O(118) <=> OH(2) + O2_(T)(3)
+    [O]_(S)(105) + [O]O(118) <=> OH(2) + O2_(T)(3)
+
+After model enlargement:
+    The model core has 3 species and 0 reactions
+    The model edge has 115 species and 247 reactions
+
+
+Saving restart file...
+Saving current model core to HTML file...
+Saving current model core to Chemkin file...
+Chemkin file contains 0 reactions.
+Saving current model to verbose Chemkin file...
+Chemkin file contains 0 reactions.
+Not saving restart file in this iteration.
+Conducting simulation of reaction system 1...
+At time 2.0000e-15 s, species O(57) exceeded the minimum rate for moving to model core
+    Characteristic rate: 0.0000e+00 mol/m^3*s
+    O(57) rate: 3.2883e+08 mol/m^3*s
+At time 2.0000e-15 s, species O(57) exceeded the minimum rate for simulation interruption
+    Characteristic rate: 0.0000e+00 mol/m^3*s
+    O(57) rate: 3.2883e+08 mol/m^3*s
+
+
+Adding species O(57) to model core
+Generating thermodynamics for new species...
+Found thermo for [H][H] in thermo library
+Warning: For <Molecule "CCCCCCC(O)CC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCCC(O)CC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC(O)CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCC(O)CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC(O)CCC=CCCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC(O)CCC=CCCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(O)CCCCCCCC(=O)O">, a node CdR3 with overlapping children [<Entry index=14 label="Ketone_Ccentered">, <Entry index=18 label="Acid_Ccentered">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Warning: For <Molecule "CCCCCC=CCCC(O)CCCCCCCC(=O)O">, a node Od with overlapping children [<Entry index=15 label="Ketone_Ocentered">, <Entry index=20 label="Acid_Ocentered2">] was encountered in tree with top level nodes [<Entry index=0 label="R">]. Assuming the first match is the better one.
+Generating kinetics for new reactions...
+
+Summary of Model Enlargement
+----------------------------
+Added 1 new core species
+    O(57)
+Created 5 new edge species
+    [H][H](119)
+    CCCCCCC(O)CC=CCCCCCCCC(=O)O(120)
+    CCCCCC=CCC(O)CCCCCCCCC(=O)O(121)
+    CCCCCC(O)CCC=CCCCCCCCC(=O)O(122)
+    CCCCCC=CCCC(O)CCCCCCCC(=O)O(123)
+Added 0 new core reactions
+Created 13 new edge reactions
+    [O]_(S)(105) + [H][H](119) <=> O(57)
+    OH(2) + [H](9) <=> O(57)
+    OH(2) + CCCCCC[CH]CC=CCCCCCCCC(=O)O(65) <=> lin_acid(1) + O(57)
+    OH(2) + CCCCCC=CC[CH]CCCCCCCCC(=O)O(66) <=> lin_acid(1) + O(57)
+    OH(2) + CCCCC[CH]CCC=CCCCCCCCC(=O)O(67) <=> lin_acid(1) + O(57)
+    OH(2) + CCCCCC=CCC[CH]CCCCCCCC(=O)O(68) <=> lin_acid(1) + O(57)
+    OH(2) + CCCCCC=CCC=CCCCCCCCC([O])O(69) <=> lin_acid(1) + O(57)
+    OH(2) + CCCCCC=CCC=CCCCCCCC[C](O)O(70) <=> lin_acid(1) + O(57)
+    lin_acid(1) + O(57) <=> CCCCCCC(O)CC=CCCCCCCCC(=O)O(120)
+    lin_acid(1) + O(57) <=> CCCCCC=CCC(O)CCCCCCCCC(=O)O(121)
+    lin_acid(1) + O(57) <=> CCCCCC(O)CCC=CCCCCCCCC(=O)O(122)
+    lin_acid(1) + O(57) <=> CCCCCC=CCCC(O)CCCCCCCC(=O)O(123)
+    O2_(T)(3) + O(57) <=> OH(2) + [O]O(118)
+
+After model enlargement:
+    The model core has 4 species and 0 reactions
+    The model edge has 119 species and 260 reactions
+
+
+Saving current model core to HTML file...
+Saving current model core to Chemkin file...
+Chemkin file contains 0 reactions.
+Saving current model to verbose Chemkin file...
+Chemkin file contains 0 reactions.
+Not saving restart file in this iteration.
+Updating RMG execution statistics...
+    Execution time (DD:HH:MM:SS): 00:00:00:59
+    Memory used: 484.50 MB
+
+Conducting simulation of reaction system 1...
+At time 2.0000e-15 s, species CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) exceeded the minimum rate for moving to model core
+    Characteristic rate: 0.0000e+00 mol/m^3*s
+    CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) rate: 7.6541e+07 mol/m^3*s
+At time 2.0000e-15 s, species CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) exceeded the minimum rate for simulation interruption
+    Characteristic rate: 0.0000e+00 mol/m^3*s
+    CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) rate: 7.6541e+07 mol/m^3*s
+
+
+Adding species CCCCCC=CCC=CCCCCCC[CH]C(=O)O(41) to model core
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=189 label="O_(T)">, <Entry index=488 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="X_H_or_Xrad_H_Xbirad_H_Xtrirad_H">, <Entry index=2 label="Y_rad_birad_trirad_quadrad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=189 label="O_(T)">, <Entry index=488 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="X_H_or_Xrad_H_Xbirad_H_Xtrirad_H">, <Entry index=2 label="Y_rad_birad_trirad_quadrad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=4 label="O_(T)">, <Entry index=295 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="Y_rad_birad_trirad_quadrad">, <Entry index=234 label="XH_Rrad_birad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=189 label="O_(T)">, <Entry index=488 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="X_H_or_Xrad_H_Xbirad_H_Xtrirad_H">, <Entry index=2 label="Y_rad_birad_trirad_quadrad">]. Assuming the first match is the better one.
+Warning: For <Molecule "[O]">, a node Y_1centerbirad with overlapping children [<Entry index=189 label="O_(T)">, <Entry index=488 label="O_(S)">] was encountered in tree with top level nodes [<Entry index=1 label="X_H_or_Xrad_H_Xbirad_H_Xtrirad_H">, <Entry index=2 label="Y_rad_birad_trirad_quadrad">]. Assuming the first match is the better one.
