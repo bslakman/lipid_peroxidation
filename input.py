@@ -15,10 +15,10 @@ generatedSpeciesConstraints(
 
 # List of species
 species(
-    label='lin_acid',
+    label='nonadiene',
     multiplicity = 1,  
     reactive=True,
-    structure=SMILES("CCCCCC=CCC=CCCCCCCCC(=O)O"),
+    structure=SMILES("CCC=CCC=CCC"),
 )
 species(
     label='OH',
@@ -38,7 +38,7 @@ simpleReactor(
     temperature=(298,'K'),
     pressure=(1.0,'bar'),
     initialMoleFractions={
-        "lin_acid": 0.98,
+        "nonadiene": 0.98,
         "OH": 0.001,
         "O2": 0.019
     },
@@ -51,10 +51,10 @@ simulator(
 )
 
 model(
-    toleranceKeepInEdge=0.01,
+    toleranceKeepInEdge=1E-9,
     toleranceMoveToCore=0.1,
     toleranceInterruptSimulation=0.5,
-    maximumEdgeSpecies=10000
+    maximumEdgeSpecies=100000
 )
 
 # quantumMechanics(
