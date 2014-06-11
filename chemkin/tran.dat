@@ -6,10 +6,9 @@ O2_(T)(3)           1     107.400     3.458     0.000     1.600     0.000    ! G
 O(57)               2     572.402     2.605 552817292552000018941088890880.000     0.000     0.000    ! GRI-Mech
 S(41)               2     652.815     9.858     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=847.81 K, Pc=12.86 bar (from Joback method)
 S(35)               2     652.815     9.858     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=847.81 K, Pc=12.86 bar (from Joback method)
+S(38)               2     652.815     9.858     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=847.81 K, Pc=12.86 bar (from Joback method)
 S(520)              2     745.660    10.818     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=968.39 K, Pc=11.11 bar (from Joback method)
+S(851)              2     745.660    10.818     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=968.39 K, Pc=11.11 bar (from Joback method)
 S(275)              2     745.660    10.818     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=968.39 K, Pc=11.11 bar (from Joback method)
 S(521)              2     745.660    10.818     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=968.39 K, Pc=11.11 bar (from Joback method)
-S(1148)             2     745.660    10.818     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=968.39 K, Pc=11.11 bar (from Joback method)
-S(46)               2     652.815     9.858     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=847.81 K, Pc=12.86 bar (from Joback method)
-S(2380)             2     745.660    10.818     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=968.39 K, Pc=11.11 bar (from Joback method)
-S(2381)             2     745.660    10.818     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=968.39 K, Pc=11.11 bar (from Joback method)
+S(852)              2     745.660    10.818     0.000     0.000     0.000    ! Epsilon & sigma estimated with Tc=968.39 K, Pc=11.11 bar (from Joback method)
