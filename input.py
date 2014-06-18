@@ -38,8 +38,8 @@ simpleReactor(
     temperature=(298,'K'),
     pressure=(1.0,'bar'),
     initialMoleFractions={
-        "nonadiene": 0.98,
-        "OH": 0.001,
+        "nonadiene": 0.978,
+        "OH": 0.003,
         "O2": 0.019
     },
     terminationTime=(5,'s'),
