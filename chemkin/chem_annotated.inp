@@ -12,22 +12,15 @@ SPECIES
     S(114)              ! CC=CC(CC=CCC)O[O](114)
     S(115)              ! CCC=CCC=CC(C)O[O](115)
     S(206)              ! CC=CC(CC=CCC)OO(206)
+    S(266)              ! CC=CC(CC=CCC)OOC(C)C=CCC=CCC(266)
     S(343)              ! CCC=CCC=CC(C)OO(343)
-    C9H14(687)          ! CCC=C=CC=CCC(687)
-    S(735)              ! CCC=CC(C=CCC)O[O](735)
-    S(736)              ! CCC=CC=CC(CC)O[O](736)
-    S(822)              ! CC=CC(CC=CCC)OOC(C=CC=CCC)CC(822)
-    S(862)              ! CCC=CC=CC(CC)OOC(C)C=CCC=CCC(862)
-    S(1641)             ! CC[C]=C=CC=CCC(1641)
-    S(1787)             ! CC=CC=C[CH]C(CC)C([CH]CC)=CC=CCC_(S)(1787)
-    S(1788)             ! CC[CH]C(=CC=CCC)C(C)[CH]C=CC=CCC_(S)(1788)
-    S(1820)             ! CC[CH]C(=CC=CCC)C([CH]CC)=CC=CCC_(S)(1820)
-    S(4463)             ! CCC=CC1C(=CCC)C(=CCC)C1C=CCC(4463)
-    S(4485)             ! CCC=CC1C(=CCC)C(=CCC)C=CC1CC(4485)
-    S(4506)             ! CCC=CC=C1C(=CCC)C(C=CCC)C1CC(4506)
-    S(4513)             ! CCC=CC=C1C(=CCC)C=CC(CC)C1CC(4513)
-    S(7012)             ! CCC#CC=CC(CC)O[O](7012)
-    S(8326)             ! CCC=CC=C1[C]2C([CH]C(CC)C2CC)C1CC_(S)(8326)
+    S(1651)             ! CCC=C=CC=CCC(1651)
+    S(1696)             ! CCC=CC(C=CCC)O[O](1696)
+    S(1697)             ! CCC=CC=CC(CC)O[O](1697)
+    S(1783)             ! CC=CC(CC=CCC)OOC(C=CC=CCC)CC(1783)
+    S(1823)             ! CCC=CC=CC(CC)OOC(C)C=CCC=CCC(1823)
+    S(2662)             ! CC=CC=C[CH]C(CC)C([CH]CC)=CC=CCC_(S)(2662)
+    S(2663)             ! CC[CH]C(=CC=CCC)C(C)[CH]C=CC=CCC_(S)(2663)
 END
 
 
@@ -101,6 +94,12 @@ S(206)                  C 9  H 16 O 2       G100.000   5000.000  1507.10       1
 -2.30137622E+04-8.15771458E+01-1.72277921E+00 1.17302398E-01-8.64183589E-05    3
  3.24586167E-08-4.98365569E-12-1.56992836E+04 4.54499776E+01                   4
 
+! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsOsH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsOsH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + gauche(Cs(RRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)HHH) + gauche(Cs(RRRR)) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Os-OsCs) + gauche(Os(Cs(CsRR)R)) + other(R) + group(Os-OsCs) + gauche(Os(Cs(CsRR)R)) + other(R)
+S(266)                  C 18 H 30 O 2       G100.000   5000.000  1513.81       1
+ 4.10178264E+01 1.00592409E-01-4.26424146E-05 7.85717925E-09-5.36607095E-13    2
+-2.79709949E+04-1.66318762E+02-7.15421066E+00 2.27879313E-01-1.68768147E-04    3
+ 6.34016920E-08-9.70957533E-12-1.33863356E+04 8.60570159E+01                   4
+
 ! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsOsH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + gauche(Cs(RRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Os-OsCs) + gauche(Os(Cs(CsRR)R)) + other(R) + group(Os-OsH) + gauche(Os(RR)) + other(R)
 S(343)                  C 9  H 16 O 2       G100.000   5000.000  1579.25       1
  2.59012954E+01 4.72158402E-02-1.91136156E-05 3.43466366E-09-2.30761532E-13    2
@@ -108,94 +107,46 @@ S(343)                  C 9  H 16 O 2       G100.000   5000.000  1579.25       1
  3.18443217E-08-4.72805440E-12-1.53912991E+04 4.74261232E+01                   4
 
 ! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-Cds(Cds-Cds)H) + gauche(CsOsCd) + other(R) + group(Cds-Cds(Cds-Cds)H) + gauche(CsOsCd) + other(R) + group(Cdd-CdsCds) + other(R)
-C9H14(687)              C 9  H 14           G100.000   5000.000  1067.78       1
+S(1651)                 C 9  H 14           G100.000   5000.000  1067.78       1
  1.82588865E+01 4.36667276E-02-1.71318429E-05 3.13388703E-09-2.17745012E-13    2
  8.76567270E+03-6.43666145E+01-6.93225852E-01 8.90727925E-02-4.49689922E-05    3
 -1.93031720E-09 6.22280199E-12 1.42718606E+04 3.51404955E+01                   4
 
 ! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)OsH) + gauche(Cs(RRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Os-OsCs) + gauche(Os(CsR)) + other(R) + group(Os-OsH) + gauche(Os(RR)) + other(R) + radical(ROOJ)
-S(735)                  C 9  H 15 O 2       G100.000   5000.000  1454.29       1
+S(1696)                 C 9  H 15 O 2       G100.000   5000.000  1454.29       1
  1.88810955E+01 5.47528796E-02-2.33386390E-05 4.31706276E-09-2.95900509E-13    2
 -3.59185886E+03-5.95458508E+01-1.18339253E+00 1.09940054E-01-8.02605545E-05    3
  3.04109231E-08-4.78158195E-12 2.24404316E+03 4.47681628E+01                   4
 
 ! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsOsH) + gauche(Cs(Cs(CsRR)RRR)) + other(R) + group(Cs-CsCsHH) + gauche(Cs(CsCsRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(Cs(CsRR)RRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-Cds(Cds-Cds)H) + gauche(CsOsCd) + other(R) + group(Cds-Cds(Cds-Cds)H) + gauche(CsOsCd) + other(R) + group(Os-OsCs) + gauche(Os(Cs(CsRR)R)) + other(R) + group(Os-OsH) + gauche(Os(RR)) + other(R) + radical(ROOJ)
-S(736)                  C 9  H 15 O 2       G100.000   5000.000  1436.27       1
+S(1697)                 C 9  H 15 O 2       G100.000   5000.000  1436.27       1
  2.42649799E+01 4.53774795E-02-1.78154825E-05 3.17731534E-09-2.13921655E-13    2
 -6.90377993E+03-9.09504575E+01-2.03079805E+00 1.18610706E-01-9.42978954E-05    3
  3.86776523E-08-6.39315560E-12 6.49818014E+02 4.54319495E+01                   4
 
 ! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsOsH) + gauche(Cs(Cs(CsRR)RRR)) + other(R) + group(Cs-(Cds-Cds)CsOsH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsCsHH) + gauche(Cs(CsCsRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(Cs(CsRR)RRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)HHH) + gauche(Cs(RRRR)) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-Cds(Cds-Cds)H) + gauche(CsOsCd) + other(R) + group(Cds-Cds(Cds-Cds)H) + gauche(CsOsCd) + other(R) + group(Os-OsCs) + gauche(Os(Cs(CsRR)R)) + other(R) + group(Os-OsCs) + gauche(Os(Cs(CsRR)R)) + other(R)
-S(822)                  C 18 H 30 O 2       G100.000   5000.000  1473.81       1
+S(1783)                 C 18 H 30 O 2       G100.000   5000.000  1473.81       1
  4.31428271E+01 9.70486369E-02-4.05221903E-05 7.43341595E-09-5.07402306E-13    2
 -3.05729391E+04-1.79476380E+02-7.64179555E+00 2.34879928E-01-1.80801845E-04    3
  7.08874204E-08-1.12709304E-11-1.56034623E+04 8.52272676E+01                   4
 
 ! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsOsH) + gauche(Cs(Cs(CsRR)RRR)) + other(R) + group(Cs-CsCsHH) + gauche(Cs(CsCsRR)) + other(R) + group(Cs-(Cds-Cds)CsOsH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + gauche(Cs(RRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(Cs(CsRR)RRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-Cds(Cds-Cds)H) + gauche(CsOsCd) + other(R) + group(Cds-Cds(Cds-Cds)H) + gauche(CsOsCd) + other(R) + group(Os-OsCs) + gauche(Os(Cs(CsRR)R)) + other(R) + group(Os-OsCs) + gauche(Os(Cs(CsRR)R)) + other(R)
-S(862)                  C 18 H 30 O 2       G100.000   5000.000  1509.80       1
+S(1823)                 C 18 H 30 O 2       G100.000   5000.000  1509.80       1
  4.63496396E+01 9.15661394E-02-3.74127221E-05 6.78389090E-09-4.59598971E-13    2
 -3.17005365E+04-1.97330966E+02-7.97639072E+00 2.35495914E-01-1.80408952E-04    3
  6.99255531E-08-1.09149520E-11-1.52963278E+04 8.71415491E+01                   4
 
-! Thermo group additivity estimation: group(Cs-CsCsHH) + gauche(Cs(CsCsRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(Cs(CsRR)RRR)) + other(R) + group(Cs-CtCsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(Cs(CsRR)RRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCtH) + gauche(CsOsCd) + other(R) + group(Ct-CtCs) + other(R) + group(Ct-Ct(Cds-Cds)) + other(R) + radical(Allyl_S)
-S(1641)                 C 9  H 13           G100.000   5000.000  1025.88       1
- 1.59595339E+01 4.41106054E-02-1.70135566E-05 3.10232189E-09-2.16236807E-13    2
- 2.70637009E+04-5.18485884E+01-1.07798191E-01 7.56728622E-02-1.77102814E-05    3
--2.59820510E-08 1.40694306E-11 3.19961092E+04 3.40500928E+01                   4
-
 ! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + gauche(Cs(Cs(CsRR)RRR)) + other(R) + group(Cs-CsCsHH) + gauche(Cs(CsCsRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + gauche(Cs(RRRR)) + other(R) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + gauche(Cs(RRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(Cs(CsRR)RRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)HHH) + gauche(Cs(RRRR)) + other(R) + group(Cds-CdsCsCs) + gauche(Cd(Cs(CsRR)Cs)) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + radical(C=CCJC=C) + radical(C=CCJC=C)
-S(1787)                 C 18 H 28           G100.000   5000.000  1130.45       1
+S(2662)                 C 18 H 28           G100.000   5000.000  1130.45       1
  3.31820036E+01 9.45058648E-02-3.73074279E-05 6.76100889E-09-4.63851925E-13    2
  9.60709197E+03-1.30863609E+02-6.04920114E+00 1.93363025E-01-1.15459464E-04    3
  2.15809818E-08 3.17389724E-12 2.10300885E+04 7.45075622E+01                   4
 
 ! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + gauche(Cs(RRRR)) + other(R) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + gauche(Cs(RRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cds-CdsCsCs) + gauche(Cd(Cs(CsRR)Cs)) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + radical(C=CCJC=C) + radical(C=CCJC=C)
-S(1788)                 C 18 H 28           G100.000   5000.000  1078.59       1
+S(2663)                 C 18 H 28           G100.000   5000.000  1078.59       1
  3.31913438E+01 9.41335389E-02-3.69877004E-05 6.73856776E-09-4.66052376E-13    2
  9.80102607E+03-1.30494360E+02-5.89882542E+00 1.88744321E-01-9.85312567E-05    3
  1.49155068E-09 1.07833287E-11 2.11626068E+04 7.46290188E+01                   4
-
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)CsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + gauche(Cs(RRRR)) + other(R) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + gauche(Cs(RRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cds-Cds(Cds-Cds)Cs) + gauche(CsOsCd) + other(R) + group(Cds-Cds(Cds-Cds)Cs) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + radical(C=CCJC=C) + radical(C=CCJC=C)
-S(1820)                 C 18 H 28           G100.000   5000.000  1011.84       1
- 3.65938527E+01 8.79528901E-02-3.33020697E-05 6.06526881E-09-4.24822314E-13    2
- 6.47618515E+03-1.50146608E+02-5.91422624E+00 1.84094409E-01-6.92377817E-05    3
--4.04853719E-08 2.84279740E-11 1.87591764E+04 7.36188170E+01                   4
-
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)(Cds-Cds)CsH) + other(R) + group(Cs-(Cds-Cds)(Cds-Cds)CsH) + other(R) + group(Cs-(Cds-Cds)CsHH) + other(R) + group(Cs-(Cds-Cds)CsHH) + other(R) + group(Cs-(Cds-Cds)CsHH) + other(R) + group(Cs-(Cds-Cds)CsHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cds-Cds(Cds-Cds)Cs) + other(R) + group(Cds-Cds(Cds-Cds)Cs) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + ring(12methylenecyclobutane)
-S(4463)                 C 18 H 28           G100.000   5000.000  1519.46       1
- 3.34482607E+01 9.60612826E-02-3.93700258E-05 7.12538313E-09-4.81490142E-13    2
--1.32169502E+02-1.37646717E+02-5.72575468E+00 1.99187561E-01-1.41175673E-04    3
- 5.17929067E-08-7.83074229E-12 1.17724857E+04 6.77338599E+01                   4
-
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsCsH) + other(R) + group(Cs-(Cds-Cds)(Cds-Cds)CsH) + other(R) + group(Cs-CsCsHH) + other(R) + group(Cs-(Cds-Cds)CsHH) + other(R) + group(Cs-(Cds-Cds)CsHH) + other(R) + group(Cs-(Cds-Cds)CsHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cds-Cds(Cds-Cds)Cs) + other(R) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-Cds(Cds-Cds)H) + other(R) + ring(3,4-dimethylenecyclohexene)
-S(4485)                 C 18 H 28           G100.000   5000.000  1088.11       1
- 3.26593286E+01 9.32154954E-02-3.56289202E-05 6.36806403E-09-4.34656894E-13    2
--1.42361136E+04-1.31257111E+02-6.07158502E+00 1.95271640E-01-1.20731394E-04    3
- 2.44527286E-08 3.23484434E-12-3.42033804E+03 6.98365585E+01                   4
-
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsCsH) + other(R) + group(Cs-(Cds-Cds)(Cds-Cds)CsH) + other(R) + group(Cs-CsCsHH) + other(R) + group(Cs-(Cds-Cds)CsHH) + other(R) + group(Cs-(Cds-Cds)CsHH) + other(R) + group(Cs-(Cds-Cds)CsHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cds-Cds(Cds-Cds)Cs) + other(R) + group(Cds-Cds(Cds-Cds)Cs) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-Cds(Cds-Cds)H) + other(R) + group(Cds-Cds(Cds-Cds)H) + other(R) + ring(12methylenecyclobutane)
-S(4506)                 C 18 H 28           G100.000   5000.000  1151.44       1
- 3.53545481E+01 9.16211548E-02-3.63971510E-05 6.62077856E-09-4.54944933E-13    2
--2.31710685E+03-1.48114108E+02-6.31870395E+00 1.98570945E-01-1.26454403E-04    3
- 3.02370907E-08 6.10946052E-13 9.78681159E+03 6.96984039E+01                   4
-
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsCsH) + other(R) + group(Cs-(Cds-Cds)CsCsH) + other(R) + group(Cs-CsCsHH) + other(R) + group(Cs-CsCsHH) + other(R) + group(Cs-(Cds-Cds)CsHH) + other(R) + group(Cs-(Cds-Cds)CsHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cds-Cds(Cds-Cds)Cs) + other(R) + group(Cds-Cds(Cds-Cds)(Cds-Cds)) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-Cds(Cds-Cds)H) + other(R) + group(Cds-Cds(Cds-Cds)H) + other(R) + group(Cds-Cds(Cds-Cds)H) + other(R) + ring(3,4-dimethylenecyclohexene)
-S(4513)                 C 18 H 28           G100.000   5000.000  995.02        1
- 3.61007316E+01 8.66410824E-02-3.16048391E-05 5.64421540E-09-3.91652799E-13    2
--1.72410271E+04-1.50687069E+02-5.92197200E+00 1.86098824E-01-7.68059628E-05    3
--3.42411387E-08 2.72597954E-11-5.43910427E+03 6.91205592E+01                   4
-
-! Thermo group additivity estimation: group(Cs-(Cds-Cds)CsOsH) + gauche(Cs(Cs(CsRR)RRR)) + other(R) + group(Cs-CsCsHH) + gauche(Cs(CsCsRR)) + other(R) + group(Cs-CtCsHH) + gauche(Cs(CsRRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(Cs(CsRR)RRR)) + other(R) + group(Cs-CsHHH) + gauche(Cs(CsRRR)) + other(R) + group(Cds-CdsCsH) + gauche(CsOsCd) + other(R) + group(Cds-CdsCtH) + gauche(CsOsCd) + other(R) + group(Ct-CtCs) + other(R) + group(Os-OsCs) + gauche(Os(Cs(CsRR)R)) + other(R) + group(Ct-Ct(Cds-Cds)) + other(R) + group(Os-OsH) + gauche(Os(RR)) + other(R) + radical(ROOJ)
-S(7012)                 C 9  H 13 O 2       G100.000   5000.000  1396.06       1
- 2.13310255E+01 4.42350621E-02-1.73255804E-05 3.08179983E-09-2.07275385E-13    2
- 1.47951591E+04-7.35031059E+01-1.49657315E+00 1.09641756E-01-8.76029406E-05    3
- 3.66421251E-08-6.21718791E-12 2.11688096E+04 4.42430624E+01                   4
-
-! Thermo group additivity estimation: group(Cs-CsCsCsH) + other(R) + group(Cs-(Cds-Cds)CsCsH) + other(R) + group(Cs-(Cds-Cds)CsCsH) + other(R) + group(Cs-(Cds-Cds)CsCsH) + other(R) + group(Cs-CsCsHH) + other(R) + group(Cs-CsCsHH) + other(R) + group(Cs-CsCsHH) + other(R) + group(Cs-CsCsHH) + other(R) + group(Cs-(Cds-Cds)CsHH) + other(R) + group(Cs-(Cds-Cds)(Cds-Cds)HH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cs-CsHHH) + other(R) + group(Cds-CdsCsCs) + other(R) + group(Cds-CdsCsCs) + other(R) + group(Cds-CdsCsH) + other(R) + group(Cds-CdsCsH) + other(R) + polycyclic(PolycyclicRing) + radical(C=CCJC=C) + radical(Cs_S)
-S(8326)                 C 18 H 28           G100.000   5000.000  1075.34       1
- 3.65750741E+01 9.28839529E-02-3.70296635E-05 6.82473254E-09-4.76028708E-13    2
--2.20586810E+03-1.85547702E+02-6.36367066E+00 1.96325899E-01-1.02816697E-04    3
--1.05988306E-09 1.26720302E-11 1.02828426E+04 3.98557796E+01                   4
 
 END
 
@@ -221,7 +172,7 @@ O2_(T)(3)+C9H15(8)=S(115)                           1.672e+13 -0.085    -0.567
 ! Reaction index: Chemkin #4; RMG #680
 ! Template reaction: H_Abstraction
 ! Exact match found for rate rule (C/H2/CdCs,OOC)
-C9H16(1)+S(114)=S(206)+C9H15(8)                     2.964e-02 4.313     8.016    
+C9H16(1)+S(114)=C9H15(8)+S(206)                     2.964e-02 4.313     8.016    
 
 ! Reaction index: Chemkin #5; RMG #759
 ! Template reaction: H_Abstraction
@@ -243,248 +194,175 @@ OH(2)+S(343)=O(29)+S(115)                           2.921e+04 2.467     -0.722
 ! Estimated using template (O/H/NonDeO,O_rad/NonDeO) for rate rule (O/H/NonDeO,OOC)
 S(206)+S(115)=S(114)+S(343)                         9.200e-02 3.960     6.630    
 
-! Reaction index: Chemkin #9; RMG #33
-! Template reaction: H_Abstraction
-! Estimated using template (C_sec,O_pri_rad) for rate rule (C/H2/CdCd,O_pri_rad)
-C9H16(1)+OH(2)=C9H15(12)+O(29)                      5.097e+06 1.913     -0.509   
-
-! Reaction index: Chemkin #10; RMG #104
-! Template reaction: intra_H_migration
-! Estimated using template (R4H,C_rad_out_1H,Cs_H_out_1H) for rate rule (R4H_SDS,C_rad_out_H/NonDeC,Cs_H_out_H/Cd)
-C9H15(8)=C9H15(12)                                  1.669e+08 0.975     59.630   
-
-! Reaction index: Chemkin #11; RMG #204
-! Template reaction: H_Abstraction
-! Exact match found for rate rule (C/H2/CdCd,C_rad/H/CdCs)
-C9H16(1)+C9H15(8)=C9H16(1)+C9H15(12)                1.962e-03 4.340     6.300    
-
-! Reaction index: Chemkin #12; RMG #681
-! Template reaction: H_Abstraction
-! Estimated using template (C_sec,O_sec_rad) for rate rule (C/H2/CdCd,OOC)
-C9H16(1)+S(114)=S(206)+C9H15(12)                    2.379e+08 1.078     10.393   
-
-! Reaction index: Chemkin #13; RMG #1500
-! Template reaction: H_Abstraction
-! Estimated using template (C_sec,O_sec_rad) for rate rule (C/H2/CdCd,OOC)
-C9H16(1)+S(115)=C9H15(12)+S(343)                    2.379e+08 1.078     10.393   
-
-! Reaction index: Chemkin #14; RMG #4262
-! Template reaction: R_Recombination
-! Estimated using template (Y_rad,O2_birad) for rate rule (C_rad/H/CdCd,O2_birad)
-O2_(T)(3)+C9H15(12)=S(735)                          1.672e+13 -0.085    -0.567   
-
-! Reaction index: Chemkin #15; RMG #4265
-! Template reaction: R_Recombination
-! Estimated using template (Y_rad,O2_birad) for rate rule (C_rad/H/CdCs,O2_birad)
-O2_(T)(3)+C9H15(12)=S(736)                          1.672e+13 -0.085    -0.567   
-
-! Reaction index: Chemkin #16; RMG #211
-! Template reaction: Disproportionation
-! Estimated using template (O_pri_rad,Cpri_Rrad) for rate rule (O_pri_rad,C/H2/De_Csrad)
-OH(2)+C9H15(8)=C9H14(39)+O(29)                      4.820e+13 0.000     0.000    
-
-! Reaction index: Chemkin #17; RMG #465
-! Template reaction: Disproportionation
-! Estimated using template (C_sec_rad,Cpri_Rrad) for rate rule (C_rad/H/OneDeC,C/H2/De_Csrad)
-C9H15(8)+C9H15(8)=C9H16(1)+C9H14(39)                2.630e+04 2.000     0.570    
-
-! Reaction index: Chemkin #18; RMG #765
-! Template reaction: Disproportionation
-! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,C/H2/De_Csrad)
-C9H15(8)+S(114)=S(206)+C9H14(39)                    1.370e+10 1.004     -0.598   
-
-! Reaction index: Chemkin #19; RMG #1584
-! Template reaction: Disproportionation
-! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,C/H2/De_Csrad)
-C9H15(8)+S(115)=C9H14(39)+S(343)                    1.370e+10 1.004     -0.598   
-
-! Reaction index: Chemkin #20; RMG #4242
-! Template reaction: Disproportionation
-! Exact match found for rate rule (O_pri_rad,C/H2/Nd_Csrad)
-OH(2)+C9H15(12)=C9H14(39)+O(29)                     4.820e+13 0.000     0.000    
-
-! Reaction index: Chemkin #21; RMG #4276
-! Template reaction: Disproportionation
-! Estimated using template (C_sec_rad,Cpri_Rrad) for rate rule (C_rad/H/TwoDe,C/H2/De_Csrad)
-C9H15(8)+C9H15(12)=C9H16(1)+C9H14(39)               2.630e+04 2.000     0.570    
-
-! Reaction index: Chemkin #22; RMG #4778
-! Template reaction: Disproportionation
-! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,C/H2/Nd_Csrad)
-C9H15(12)+S(114)=S(206)+C9H14(39)                   1.370e+10 1.004     -0.598   
-
-! Reaction index: Chemkin #23; RMG #5054
-! Template reaction: Disproportionation
-! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,C/H2/Nd_Csrad)
-C9H15(12)+S(115)=C9H14(39)+S(343)                   1.370e+10 1.004     -0.598   
-
-! Reaction index: Chemkin #24; RMG #5462
-! Template reaction: Disproportionation
-! Estimated using template (C_sec_rad,Cpri_Rrad) for rate rule (C_rad/H/TwoDe,C/H2/Nd_Csrad)
-C9H15(12)+C9H15(12)=C9H16(1)+C9H14(39)              2.630e+04 2.000     0.570    
-
-! Reaction index: Chemkin #25; RMG #4218
-! Template reaction: Disproportionation
-! Exact match found for rate rule (O_pri_rad,Cdpri_Csrad)
-OH(2)+C9H15(12)=C9H14(687)+O(29)                    1.206e+13 0.000     0.000    
-
-! Reaction index: Chemkin #26; RMG #4448
-! Template reaction: Disproportionation
-! Estimated using template (C_sec_rad,Cdpri_Rrad) for rate rule (C_rad/H/OneDeC,Cdpri_Csrad)
-C9H15(8)+C9H15(12)=C9H16(1)+C9H14(687)              9.160e+12 -0.350    -0.130   
-
-! Reaction index: Chemkin #27; RMG #4594
-! Template reaction: Disproportionation
-! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,Cdpri_Csrad)
-C9H15(12)+S(114)=S(206)+C9H14(687)                  1.370e+10 1.004     -0.598   
-
-! Reaction index: Chemkin #28; RMG #4870
-! Template reaction: Disproportionation
-! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,Cdpri_Csrad)
-C9H15(12)+S(115)=C9H14(687)+S(343)                  1.370e+10 1.004     -0.598   
-
-! Reaction index: Chemkin #29; RMG #5416
-! Template reaction: Disproportionation
-! Estimated using template (C_sec_rad,Cdpri_Rrad) for rate rule (C_rad/H/TwoDe,Cdpri_Csrad)
-C9H15(12)+C9H15(12)=C9H16(1)+C9H14(687)             9.160e+12 -0.350    -0.130   
-
-! Reaction index: Chemkin #30; RMG #4861
-! Template reaction: R_Recombination
-! Estimated using template (Y_rad,Y_rad) for rate rule (C_rad/H/CdCs,O_rad/NonDe)
-C9H15(12)+S(114)=S(822)                             1.000e+13 0.000     0.000    
-
-! Reaction index: Chemkin #31; RMG #7223
-! Template reaction: R_Recombination
-! Estimated using template (Y_rad,Y_rad) for rate rule (O_rad/NonDe,C_rad/H/CdCs)
-C9H15(8)+S(736)=S(822)                              1.000e+13 0.000     0.000    
-
-! Reaction index: Chemkin #32; RMG #5137
-! Template reaction: R_Recombination
-! Estimated using template (Y_rad,Y_rad) for rate rule (C_rad/H/CdCs,O_rad/NonDe)
-C9H15(12)+S(115)=S(862)                             1.000e+13 0.000     0.000    
-
-! Reaction index: Chemkin #33; RMG #7323
-! Template reaction: R_Recombination
-! Estimated using template (Y_rad,Y_rad) for rate rule (O_rad/NonDe,C_rad/H/CdCs)
-C9H15(8)+S(736)=S(862)                              1.000e+13 0.000     0.000    
-
-! Reaction index: Chemkin #34; RMG #12021
-! Template reaction: 1,4_Linear_birad_scission
-! Exact match found for rate rule (RJJ)
-S(1787)=C9H14(39)+C9H14(687)                        1.000e+13 0.000     0.000    
-
-! Reaction index: Chemkin #35; RMG #12022
-! Template reaction: 1,4_Linear_birad_scission
-! Exact match found for rate rule (RJJ)
-S(1788)=C9H14(39)+C9H14(687)                        1.000e+13 0.000     0.000    
-
-! Reaction index: Chemkin #36; RMG #12094
-! Template reaction: 1,4_Linear_birad_scission
-! Exact match found for rate rule (RJJ)
-! Ea raised from 0.0 to 81.6 kJ/mol to match endothermicity of reaction.
-S(1820)=C9H14(687)+C9H14(687)                       1.000e+13 0.000     19.493   
-
-! Reaction index: Chemkin #37; RMG #22677
-! Template reaction: Birad_recombination
-! Estimated using template (R6,C_rad_out_single,Cpri_rad_out_single) for rate rule (R6,C_rad_out_H/NonDeC,Cpri_rad_out_H/OneDe)
-S(1820)=S(4485)                                     5.068e+11 0.069     1.960    
-
-! Reaction index: Chemkin #38; RMG #22706
-! Template reaction: Birad_recombination
-! Estimated using template (R6,C_rad_out_single,Cpri_rad_out_single) for rate rule (R6,C_rad_out_H/NonDeC,Cpri_rad_out_H/NonDeC)
-S(1820)=S(4513)                                     5.068e+11 0.069     1.960    
-
-! Reaction index: Chemkin #39; RMG #10750
-! Template reaction: H_Abstraction
-! Exact match found for rate rule (Cd/H/NonDeC,O_pri_rad)
-OH(2)+C9H14(687)=O(29)+S(1641)                      1.110e+06 2.000     1.450    
-
-! Reaction index: Chemkin #40; RMG #10969
-! Template reaction: H_Abstraction
-! Exact match found for rate rule (Cd/H/NonDeC,C_rad/H/CdCs)
-C9H16(1)+S(1641)=C9H14(687)+C9H15(8)                1.564e-02 4.340     -1.600   
-
-! Reaction index: Chemkin #41; RMG #11138
-! Template reaction: H_Abstraction
-! Exact match found for rate rule (Cd/H/NonDeC,OOC)
-! Ea raised from -16.9 to 4.5 kJ/mol to match endothermicity of reaction.
-S(206)+S(1641)=C9H14(687)+S(114)                    4.375e-01 3.590     1.068    
-
-! Reaction index: Chemkin #42; RMG #11309
-! Template reaction: H_Abstraction
-! Exact match found for rate rule (Cd/H/NonDeC,OOC)
-! Ea raised from -16.9 to 4.5 kJ/mol to match endothermicity of reaction.
-S(343)+S(1641)=C9H14(687)+S(115)                    4.375e-01 3.590     1.068    
-
-! Reaction index: Chemkin #43; RMG #11608
-! Template reaction: H_Abstraction
-! Exact match found for rate rule (Cd/H/NonDeC,C_rad/H/CdCd)
-C9H16(1)+S(1641)=C9H14(687)+C9H15(12)               1.058e-02 4.340     -4.200   
-
-! Reaction index: Chemkin #44; RMG #11959
-! Template reaction: Disproportionation
-! Estimated using template (Cd_rad,XH_s_Rrad) for rate rule (Cd_rad/NonDeC,C/H2/Nd_Csrad)
-C9H15(12)+S(1641)=C9H14(39)+C9H14(687)              1.292e+13 -0.140    0.000    
-
-! Reaction index: Chemkin #45; RMG #11962
-! Template reaction: Disproportionation
-! Estimated using template (Cd_rad,XH_s_Rrad) for rate rule (Cd_rad/NonDeC,C/H2/De_Csrad)
-C9H15(8)+S(1641)=C9H14(39)+C9H14(687)               1.292e+13 -0.140    0.000    
-
-! Reaction index: Chemkin #46; RMG #12083
-! Template reaction: Disproportionation
-! Estimated using template (Cd_rad,XH_s_Rrad) for rate rule (Cd_rad/NonDeC,Cdpri_Csrad)
-C9H15(12)+S(1641)=C9H14(687)+C9H14(687)             6.460e+12 -0.140    0.000    
-
-! Reaction index: Chemkin #47; RMG #22654
-! Template reaction: Birad_recombination
-! Estimated using template (R4,C_rad_out_single,Cpri_rad_out_single) for rate rule (R4_SSS,C_rad_out_H/OneDe,Cpri_rad_out_H/OneDe)
-S(1820)=S(4463)                                     3.240e+12 -0.305    1.980    
-
-! Reaction index: Chemkin #48; RMG #22698
-! Template reaction: Birad_recombination
-! Estimated using template (R4,C_rad_out_single,Cpri_rad_out_single) for rate rule (R4_SSS,C_rad_out_H/OneDe,Cpri_rad_out_H/NonDeC)
-S(1820)=S(4506)                                     3.240e+12 -0.305    1.980    
-
-! Reaction index: Chemkin #49; RMG #32669
-! Template reaction: R_Recombination
-! Estimated using template (Y_rad,O2_birad) for rate rule (C_rad/H/CdCs,O2_birad)
-O2_(T)(3)+S(1641)=S(7012)                           1.672e+13 -0.085    -0.567   
-
-! Reaction index: Chemkin #50; RMG #255
+! Reaction index: Chemkin #9; RMG #255
 ! Template reaction: Disproportionation
 ! Exact match found for rate rule (O_pri_rad,Cmethyl_Csrad)
 OH(2)+C9H15(8)=O(29)+C9H14(76)                      7.230e+13 0.000     0.000    
 
-! Reaction index: Chemkin #51; RMG #547
+! Reaction index: Chemkin #10; RMG #547
 ! Template reaction: Disproportionation
 ! Estimated using template (C_sec_rad,Cmethyl_Rrad) for rate rule (C_rad/H/OneDeC,Cmethyl_Csrad)
 C9H15(8)+C9H15(8)=C9H16(1)+C9H14(76)                6.330e+14 -0.700    0.000    
 
-! Reaction index: Chemkin #52; RMG #1105
+! Reaction index: Chemkin #11; RMG #1105
 ! Template reaction: Disproportionation
 ! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,Cmethyl_Csrad)
 C9H15(8)+S(114)=S(206)+C9H14(76)                    2.056e+10 1.004     -0.598   
 
-! Reaction index: Chemkin #53; RMG #1924
+! Reaction index: Chemkin #12; RMG #1924
 ! Template reaction: Disproportionation
 ! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,Cmethyl_Csrad)
 C9H15(8)+S(115)=S(343)+C9H14(76)                    2.056e+10 1.004     -0.598   
 
-! Reaction index: Chemkin #54; RMG #4447
+! Reaction index: Chemkin #13; RMG #211
+! Template reaction: Disproportionation
+! Estimated using template (O_pri_rad,Cpri_Rrad) for rate rule (O_pri_rad,C/H2/De_Csrad)
+OH(2)+C9H15(8)=O(29)+C9H14(39)                      4.820e+13 0.000     0.000    
+
+! Reaction index: Chemkin #14; RMG #465
+! Template reaction: Disproportionation
+! Estimated using template (C_sec_rad,Cpri_Rrad) for rate rule (C_rad/H/OneDeC,C/H2/De_Csrad)
+C9H15(8)+C9H15(8)=C9H16(1)+C9H14(39)                2.630e+04 2.000     0.570    
+
+! Reaction index: Chemkin #15; RMG #765
+! Template reaction: Disproportionation
+! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,C/H2/De_Csrad)
+C9H15(8)+S(114)=S(206)+C9H14(39)                    1.370e+10 1.004     -0.598   
+
+! Reaction index: Chemkin #16; RMG #1584
+! Template reaction: Disproportionation
+! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,C/H2/De_Csrad)
+C9H15(8)+S(115)=C9H14(39)+S(343)                    1.370e+10 1.004     -0.598   
+
+! Reaction index: Chemkin #17; RMG #1188
+! Template reaction: R_Recombination
+! Estimated using template (Y_rad,Y_rad) for rate rule (O_rad/NonDe,C_rad/H/CdCs)
+C9H15(8)+S(114)=S(266)                              1.000e+13 0.000     0.000    
+
+! Reaction index: Chemkin #18; RMG #1907
+! Template reaction: R_Recombination
+! Estimated using template (Y_rad,Y_rad) for rate rule (O_rad/NonDe,C_rad/H/CdCs)
+C9H15(8)+S(115)=S(266)                              1.000e+13 0.000     0.000    
+
+! Reaction index: Chemkin #19; RMG #33
+! Template reaction: H_Abstraction
+! Estimated using template (C_sec,O_pri_rad) for rate rule (C/H2/CdCd,O_pri_rad)
+C9H16(1)+OH(2)=C9H15(12)+O(29)                      5.097e+06 1.913     -0.509   
+
+! Reaction index: Chemkin #20; RMG #104
+! Template reaction: intra_H_migration
+! Estimated using template (R4H,C_rad_out_1H,Cs_H_out_1H) for rate rule (R4H_SDS,C_rad_out_H/NonDeC,Cs_H_out_H/Cd)
+C9H15(8)=C9H15(12)                                  1.669e+08 0.975     59.630   
+
+! Reaction index: Chemkin #21; RMG #204
+! Template reaction: H_Abstraction
+! Exact match found for rate rule (C/H2/CdCd,C_rad/H/CdCs)
+C9H16(1)+C9H15(8)=C9H16(1)+C9H15(12)                1.962e-03 4.340     6.300    
+
+! Reaction index: Chemkin #22; RMG #681
+! Template reaction: H_Abstraction
+! Estimated using template (C_sec,O_sec_rad) for rate rule (C/H2/CdCd,OOC)
+C9H16(1)+S(114)=C9H15(12)+S(206)                    2.379e+08 1.078     10.393   
+
+! Reaction index: Chemkin #23; RMG #1500
+! Template reaction: H_Abstraction
+! Estimated using template (C_sec,O_sec_rad) for rate rule (C/H2/CdCd,OOC)
+C9H16(1)+S(115)=C9H15(12)+S(343)                    2.379e+08 1.078     10.393   
+
+! Reaction index: Chemkin #24; RMG #4180
 ! Template reaction: Disproportionation
 ! Estimated using template (C_sec_rad,Cmethyl_Rrad) for rate rule (C_rad/H/TwoDe,Cmethyl_Csrad)
 C9H15(8)+C9H15(12)=C9H16(1)+C9H14(76)               6.330e+14 -0.700    0.000    
 
-! Reaction index: Chemkin #55; RMG #33201
+! Reaction index: Chemkin #25; RMG #5301
 ! Template reaction: Disproportionation
-! Estimated using template (Cd_rad,XH_s_Rrad) for rate rule (Cd_rad/NonDeC,Cmethyl_Csrad)
-C9H15(8)+S(1641)=C9H14(687)+C9H14(76)               1.938e+13 -0.140    0.000    
+! Estimated using template (C_sec_rad,Cpri_Rrad) for rate rule (C_rad/H/OneDeC,C/H2/Nd_Csrad)
+C9H15(8)+C9H15(12)=C9H16(1)+C9H14(39)               2.630e+04 2.000     0.570    
 
-! Reaction index: Chemkin #56; RMG #40956
-! Template reaction: 1,4_Cyclic_birad_scission
-! Estimated using template (RJJ) for rate rule (R5JJ)
-S(8326)=S(4506)                                     4.000e+13 0.000     0.000    
+! Reaction index: Chemkin #26; RMG #5302
+! Template reaction: Disproportionation
+! Estimated using template (C_sec_rad,Cpri_Rrad) for rate rule (C_rad/H/TwoDe,C/H2/Nd_Csrad)
+C9H15(12)+C9H15(12)=C9H16(1)+C9H14(39)              2.630e+04 2.000     0.570    
+
+! Reaction index: Chemkin #27; RMG #5385
+! Template reaction: Disproportionation
+! Exact match found for rate rule (O_pri_rad,C/H2/Nd_Csrad)
+OH(2)+C9H15(12)=O(29)+C9H14(39)                     4.820e+13 0.000     0.000    
+
+! Reaction index: Chemkin #28; RMG #6110
+! Template reaction: Disproportionation
+! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,C/H2/Nd_Csrad)
+C9H15(12)+S(114)=S(206)+C9H14(39)                   1.370e+10 1.004     -0.598   
+
+! Reaction index: Chemkin #29; RMG #6241
+! Template reaction: Disproportionation
+! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,C/H2/Nd_Csrad)
+C9H15(12)+S(115)=C9H14(39)+S(343)                   1.370e+10 1.004     -0.598   
+
+! Reaction index: Chemkin #30; RMG #9092
+! Template reaction: R_Recombination
+! Estimated using template (Y_rad,O2_birad) for rate rule (C_rad/H/CdCd,O2_birad)
+O2_(T)(3)+C9H15(12)=S(1696)                         1.672e+13 -0.085    -0.567   
+
+! Reaction index: Chemkin #31; RMG #9095
+! Template reaction: R_Recombination
+! Estimated using template (Y_rad,O2_birad) for rate rule (C_rad/H/CdCs,O2_birad)
+O2_(T)(3)+C9H15(12)=S(1697)                         1.672e+13 -0.085    -0.567   
+
+! Reaction index: Chemkin #32; RMG #9049
+! Template reaction: Disproportionation
+! Exact match found for rate rule (O_pri_rad,Cdpri_Csrad)
+OH(2)+C9H15(12)=O(29)+S(1651)                       1.206e+13 0.000     0.000    
+
+! Reaction index: Chemkin #33; RMG #9276
+! Template reaction: Disproportionation
+! Estimated using template (C_sec_rad,Cdpri_Rrad) for rate rule (C_rad/H/OneDeC,Cdpri_Csrad)
+C9H15(8)+C9H15(12)=C9H16(1)+S(1651)                 9.160e+12 -0.350    -0.130   
+
+! Reaction index: Chemkin #34; RMG #9422
+! Template reaction: Disproportionation
+! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,Cdpri_Csrad)
+C9H15(12)+S(114)=S(206)+S(1651)                     1.370e+10 1.004     -0.598   
+
+! Reaction index: Chemkin #35; RMG #9697
+! Template reaction: Disproportionation
+! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,Cdpri_Csrad)
+C9H15(12)+S(115)=S(1651)+S(343)                     1.370e+10 1.004     -0.598   
+
+! Reaction index: Chemkin #36; RMG #10810
+! Template reaction: Disproportionation
+! Estimated using template (C_sec_rad,Cdpri_Rrad) for rate rule (C_rad/H/TwoDe,Cdpri_Csrad)
+C9H15(12)+C9H15(12)=C9H16(1)+S(1651)                9.160e+12 -0.350    -0.130   
+
+! Reaction index: Chemkin #37; RMG #9688
+! Template reaction: R_Recombination
+! Estimated using template (Y_rad,Y_rad) for rate rule (C_rad/H/CdCs,O_rad/NonDe)
+C9H15(12)+S(114)=S(1783)                            1.000e+13 0.000     0.000    
+
+! Reaction index: Chemkin #38; RMG #13036
+! Template reaction: R_Recombination
+! Estimated using template (Y_rad,Y_rad) for rate rule (O_rad/NonDe,C_rad/H/CdCs)
+C9H15(8)+S(1697)=S(1783)                            1.000e+13 0.000     0.000    
+
+! Reaction index: Chemkin #39; RMG #9963
+! Template reaction: R_Recombination
+! Estimated using template (Y_rad,Y_rad) for rate rule (C_rad/H/CdCs,O_rad/NonDe)
+C9H15(12)+S(115)=S(1823)                            1.000e+13 0.000     0.000    
+
+! Reaction index: Chemkin #40; RMG #13136
+! Template reaction: R_Recombination
+! Estimated using template (Y_rad,Y_rad) for rate rule (O_rad/NonDe,C_rad/H/CdCs)
+C9H15(8)+S(1697)=S(1823)                            1.000e+13 0.000     0.000    
+
+! Reaction index: Chemkin #41; RMG #16695
+! Template reaction: 1,4_Linear_birad_scission
+! Exact match found for rate rule (RJJ)
+S(2662)=C9H14(39)+S(1651)                           1.000e+13 0.000     0.000    
+
+! Reaction index: Chemkin #42; RMG #16696
+! Template reaction: 1,4_Linear_birad_scission
+! Exact match found for rate rule (RJJ)
+S(2663)=C9H14(39)+S(1651)                           1.000e+13 0.000     0.000    
 
 END
 
