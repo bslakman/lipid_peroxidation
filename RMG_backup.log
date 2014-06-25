@@ -1,6 +1,6 @@
 Global RMG Settings:
    database.directory   = /Users/belinda/Code/RMG-database/input (Default, relative to RMG-Py source code)
-RMG execution initiated at Wed Jun 18 16:51:37 2014
+RMG execution initiated at Thu Jun 19 14:48:33 2014
 
 ###################################################
 # RMG-Py - Reaction Mechanism Generator in Python #
@@ -12,14 +12,15 @@ RMG execution initiated at Wed Jun 18 16:51:37 2014
 ###################################################
 
 The current git HEAD is:
-	01d4854fdec936f83b4e6c8d0a4372242547997a
-	Wed Jun 18 11:24:53 2014 -0400
+	06c0babf7ecc1f5cef42576fd132378030855ba8
+	Thu Jun 19 13:38:56 2014 -0400
 
 Reading input file "/Users/belinda/Code/RMG-Py/examples/rmg/lipid-peroxidation/input.py"...
-
-Loading thermodynamics library from primaryThermoLibrary.py in /Users/belinda/Code/RMG-database/input/thermo/libraries...
-Loading thermodynamics group database from /Users/belinda/Code/RMG-database/input/thermo/groups...
-Loading transport library from GRI-Mech.py in /Users/belinda/Code/RMG-database/input/transport/libraries...
-Loading transport library from PrimaryTransportLibrary.py in /Users/belinda/Code/RMG-database/input/transport/libraries...
-Loading transport group database from /Users/belinda/Code/RMG-database/input/transport/groups...
-Loading the user-specified kinetics families from /Users/belinda/Code/RMG-database/input/kinetics/families
+Error: The input file "/Users/belinda/Code/RMG-Py/examples/rmg/lipid-peroxidation/input.py" was invalid:
+Error: species() got an unexpected keyword argument 'multiplicity'
+Traceback (most recent call last):
+  File "/Users/belinda/Code/RMG-Py/rmgpy/rmg/input.py", line 320, in readInputFile
+    exec f in global_context, local_context
+  File "/Users/belinda/Code/RMG-Py/examples/rmg/lipid-peroxidation/input.py", line 21, in <module>
+    structure=SMILES("CCC=CCC=CCC"),
+TypeError: species() got an unexpected keyword argument 'multiplicity'

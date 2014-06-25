@@ -15,20 +15,17 @@ generatedSpeciesConstraints(
 
 # List of species
 species(
-    label='nonadiene',
-    multiplicity = 1,  
+    label='nonadiene', 
     reactive=True,
     structure=SMILES("CCC=CCC=CCC"),
 )
 species(
     label='OH',
-    multiplicity = 2, 
     reactive=True,
     structure=SMILES("[OH]"),
 )
 species(
-    label='O2',
-    multiplicity = 3, 
+    label='O2', 
     reactive=True,
     structure=SMILES("[O][O]"),
 )
