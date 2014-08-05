@@ -181,7 +181,7 @@ C9H16(1)+OH(2)=C9H17O(41)                           6.707e+11 0.340     -0.973
 ! Reaction index: Chemkin #3; RMG #42
 ! Template reaction: H_Abstraction
 ! Estimated using template (C/H2/OneDeC,O_pri_rad) for rate rule (C/H2/CdCs,O_pri_rad)
-C9H16(1)+OH(2)=C9H15(8)+O(39)                       4.720e+02 3.150     -3.048   
+C9H16(1)+OH(2)=O(39)+C9H15(8)                       4.720e+02 3.150     -3.048   
 
 ! Reaction index: Chemkin #4; RMG #231
 ! Template reaction: R_Recombination
@@ -226,7 +226,7 @@ OH(2)+C9H15(8)=S(128)                               1.000e+13 0.000     0.000
 ! Reaction index: Chemkin #12; RMG #1735
 ! Template reaction: Disproportionation
 ! Estimated using template (C_sec_rad,Cpri_Rrad) for rate rule (C_rad/H/OneDeC,C/H2/Nd_Csrad)
-C9H15(8)+C9H17O(41)=C9H16(1)+S(128)                 2.630e+04 2.000     0.570    
+C9H17O(41)+C9H15(8)=C9H16(1)+S(128)                 2.630e+04 2.000     0.570    
 
 ! Reaction index: Chemkin #13; RMG #162
 ! Template reaction: H_Abstraction
@@ -256,7 +256,7 @@ C9H16(1)+C9H17O(41)=C9H15(8)+S(174)                 3.412e-03 4.340     3.100
 ! Reaction index: Chemkin #18; RMG #733
 ! Template reaction: Disproportionation
 ! Exact match found for rate rule (C_rad/H/NonDeC,C/H2/Nd_Csrad)
-C9H17O(41)+C9H17O(41)=S(128)+S(174)                 1.026e+14 -0.350    0.000    
+C9H17O(41)+C9H17O(41)=S(174)+S(128)                 1.026e+14 -0.350    0.000    
 
 ! Reaction index: Chemkin #19; RMG #847
 ! Template reaction: 1,3_Insertion_ROR
@@ -276,12 +276,12 @@ C9H17O(41)+C9H18O(94)=C9H17O(40)+S(174)             1.732e-03 4.340     7.500
 ! Reaction index: Chemkin #22; RMG #2202
 ! Template reaction: H_Abstraction
 ! Exact match found for rate rule (C/H2/CdCs,OOC)
-C9H16(1)+S(108)=C9H15(8)+S(479)                     2.964e-02 4.313     8.016    
+C9H16(1)+S(108)=S(479)+C9H15(8)                     2.964e-02 4.313     8.016    
 
 ! Reaction index: Chemkin #23; RMG #2500
 ! Template reaction: Disproportionation
 ! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,C/H2/Nd_Csrad)
-C9H17O(41)+S(108)=S(128)+S(479)                     1.370e+10 1.004     -0.598   
+C9H17O(41)+S(108)=S(479)+S(128)                     1.370e+10 1.004     -0.598   
 
 ! Reaction index: Chemkin #24; RMG #2730
 ! Template reaction: H_Abstraction
@@ -291,12 +291,12 @@ OH(2)+S(479)=O(39)+S(108)                           2.921e+04 2.467     -0.722
 ! Reaction index: Chemkin #25; RMG #12417
 ! Template reaction: H_Abstraction
 ! Exact match found for rate rule (C/H2/Cs/Cs\O,OOC)
-C9H17O(40)+S(479)=C9H18O(94)+S(108)                 2.510e-11 6.770     -8.600   
+S(479)+C9H17O(40)=C9H18O(94)+S(108)                 2.510e-11 6.770     -8.600   
 
 ! Reaction index: Chemkin #26; RMG #13547
 ! Template reaction: H_Abstraction
 ! Exact match found for rate rule (C/H2/Cs/Cs\O,OOC)
-C9H17O(41)+S(479)=S(108)+S(174)                     2.510e-11 6.770     -8.600   
+S(479)+C9H17O(41)=S(174)+S(108)                     2.510e-11 6.770     -8.600   
 
 ! Reaction index: Chemkin #27; RMG #3345
 ! Template reaction: H_Abstraction
@@ -306,7 +306,7 @@ C9H16(1)+S(183)=C9H15(8)+S(672)                     2.964e-02 4.313     8.016
 ! Reaction index: Chemkin #28; RMG #3643
 ! Template reaction: Disproportionation
 ! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,C/H2/Nd_Csrad)
-C9H17O(41)+S(183)=S(128)+S(672)                     1.370e+10 1.004     -0.598   
+C9H17O(41)+S(183)=S(672)+S(128)                     1.370e+10 1.004     -0.598   
 
 ! Reaction index: Chemkin #29; RMG #3873
 ! Template reaction: H_Abstraction
@@ -321,17 +321,17 @@ C9H17O(40)+S(672)=C9H18O(94)+S(183)                 2.510e-11 6.770     -8.600
 ! Reaction index: Chemkin #31; RMG #13649
 ! Template reaction: H_Abstraction
 ! Exact match found for rate rule (C/H2/Cs/Cs\O,OOC)
-C9H17O(41)+S(672)=S(183)+S(174)                     2.510e-11 6.770     -8.600   
+C9H17O(41)+S(672)=S(174)+S(183)                     2.510e-11 6.770     -8.600   
 
 ! Reaction index: Chemkin #32; RMG #14492
 ! Template reaction: Substitution_O
 ! Estimated using template (O-RR,CJ) for rate rule (O-Os(H)Cs(CsCsH),CsJ-CsCsH)
-C9H17O(40)+S(672)=C9H17O(41)+S(479)                 1.017e+00 3.662     29.959   
+C9H17O(40)+S(672)=S(479)+C9H17O(41)                 1.017e+00 3.662     29.959   
 
 ! Reaction index: Chemkin #33; RMG #14897
 ! Template reaction: H_Abstraction
 ! Estimated using template (O/H/NonDeO,O_rad/NonDeO) for rate rule (ROOH_sec,OOC)
-S(183)+S(479)=S(108)+S(672)                         9.200e-02 3.960     6.630    
+S(479)+S(183)=S(672)+S(108)                         9.200e-02 3.960     6.630    
 
 ! Reaction index: Chemkin #34; RMG #176
 ! Template reaction: Disproportionation
@@ -351,12 +351,12 @@ C9H17O(40)+C9H17O(41)=C9H16O(48)+S(174)             2.630e+04 2.000     0.570
 ! Reaction index: Chemkin #37; RMG #1377
 ! Template reaction: Disproportionation
 ! Estimated using template (C_sec_rad,Cpri_Rrad) for rate rule (C_rad/H/OneDeC,C/H2/De_Csrad)
-C9H15(8)+C9H17O(40)=C9H16(1)+C9H16O(48)             2.630e+04 2.000     0.570    
+C9H17O(40)+C9H15(8)=C9H16(1)+C9H16O(48)             2.630e+04 2.000     0.570    
 
 ! Reaction index: Chemkin #38; RMG #2275
 ! Template reaction: Disproportionation
 ! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,C/H2/De_Csrad)
-C9H17O(40)+S(108)=C9H16O(48)+S(479)                 1.370e+10 1.004     -0.598   
+C9H17O(40)+S(108)=S(479)+C9H16O(48)                 1.370e+10 1.004     -0.598   
 
 ! Reaction index: Chemkin #39; RMG #3418
 ! Template reaction: Disproportionation
@@ -381,12 +381,12 @@ C9H17O(40)+C9H17O(41)=C9H16O(47)+S(174)             2.560e+13 -0.350    0.000
 ! Reaction index: Chemkin #43; RMG #1376
 ! Template reaction: Disproportionation
 ! Estimated using template (C_sec_rad,Csec_Rrad) for rate rule (C_rad/H/OneDeC,C/H/NdNd_Csrad)
-C9H15(8)+C9H17O(40)=C9H16(1)+C9H16O(47)             2.560e+13 -0.350    0.000    
+C9H17O(40)+C9H15(8)=C9H16(1)+C9H16O(47)             2.560e+13 -0.350    0.000    
 
 ! Reaction index: Chemkin #44; RMG #2274
 ! Template reaction: Disproportionation
 ! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,C/H/NdNd_Csrad)
-C9H17O(40)+S(108)=C9H16O(47)+S(479)                 6.852e+09 1.004     -0.598   
+C9H17O(40)+S(108)=S(479)+C9H16O(47)                 6.852e+09 1.004     -0.598   
 
 ! Reaction index: Chemkin #45; RMG #3417
 ! Template reaction: Disproportionation
@@ -411,12 +411,12 @@ C9H17O(41)+C9H17O(41)=S(129)+S(174)                 2.560e+13 -0.350    0.000
 ! Reaction index: Chemkin #49; RMG #1736
 ! Template reaction: Disproportionation
 ! Estimated using template (C_sec_rad,Csec_Rrad) for rate rule (C_rad/H/OneDeC,C/H/NdNd_Csrad)
-C9H15(8)+C9H17O(41)=C9H16(1)+S(129)                 2.560e+13 -0.350    0.000    
+C9H17O(41)+C9H15(8)=C9H16(1)+S(129)                 2.560e+13 -0.350    0.000    
 
 ! Reaction index: Chemkin #50; RMG #2501
 ! Template reaction: Disproportionation
 ! Estimated using template (O_rad,XH_s_Rrad) for rate rule (O_rad/NonDeO,C/H/NdNd_Csrad)
-C9H17O(41)+S(108)=S(129)+S(479)                     6.852e+09 1.004     -0.598   
+C9H17O(41)+S(108)=S(479)+S(129)                     6.852e+09 1.004     -0.598   
 
 ! Reaction index: Chemkin #51; RMG #3644
 ! Template reaction: Disproportionation
@@ -446,7 +446,7 @@ OH(2)+S(480)=S(532)                                 1.000e+13 0.000     0.000
 ! Reaction index: Chemkin #56; RMG #23838
 ! Template reaction: Substitution_O
 ! Estimated using template (O-HCs,CsJ-CsCsH) for rate rule (O-HCs(CdCsH),CsJ-CsCsH)
-S(128)+S(480)=C9H15(8)+S(532)                       2.086e-03 4.623     36.696   
+S(480)+S(128)=C9H15(8)+S(532)                       2.086e-03 4.623     36.696   
 
 END
 
