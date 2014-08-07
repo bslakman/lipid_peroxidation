@@ -52,8 +52,8 @@ simulator(
 
 model(
     toleranceKeepInEdge=1E-5,
-    toleranceMoveToCore=0.01,
-    toleranceInterruptSimulation=0.1,
+    toleranceMoveToCore=0.1,
+    toleranceInterruptSimulation=0.5,
     maximumEdgeSpecies=10000
 )
 
