@@ -31,15 +31,18 @@ species(
 )
 
 # Reaction systems
-simpleReactor(
+liquidReactor(
     temperature=(298,'K'),
-    pressure=(1.0,'bar'),
-    initialMoleFractions={
-        "nonadiene": 0.978,
-        "OH": 0.003,
-        "O2": 0.019
+    initialConcentrations={
+        "nonadiene": (0.978e-3, 'mol/cm^3'),
+        "OH": (0.003e-3, 'mol/cm^3'),
+        "O2": (0.019e-3, 'mol/cm^3')
     },
     terminationTime=(5,'s'),
+)
+
+solvation(
+    solvent = 'water'
 )
 
 simulator(

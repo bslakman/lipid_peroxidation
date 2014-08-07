@@ -118,11 +118,16 @@
 
 <h1>RMG Output</h1>
 
+<<<<<<< Updated upstream
 <h2>Species (22)</h2>
+=======
+<h2>Species (0)</h2>
+>>>>>>> Stashed changes
 
 <table class="speciesList">
     <tr><th>Index</th><th>Structure</th><th>Label</th><th>Mol. Wt. (g/mol)</th></tr>
     
+<<<<<<< Updated upstream
     <tr class="species">
         <td class="index">
         1.</td>
@@ -1038,6 +1043,14 @@
     <input type="checkbox" id="R_Addition_MultipleBond" name="family" value="R_Addition_MultipleBond" checked="checked" onclick="updateFamily(this);"><label for="R_Addition_MultipleBond">R_Addition_MultipleBond (3 rxns)</label><br>
     <input type="checkbox" id="R_Recombination" name="family" value="R_Recombination" checked="checked" onclick="updateFamily(this);"><label for="R_Recombination">R_Recombination (8 rxns)</label><br>
     <input type="checkbox" id="Substitution_O" name="family" value="Substitution_O" checked="checked" onclick="updateFamily(this);"><label for="Substitution_O">Substitution_O (2 rxns)</label><br>
+=======
+</table>
+
+<h2>Reactions (0)</h2>
+
+<form id='familySelector' action="">
+    <h4>Reaction families:</h4>
+>>>>>>> Stashed changes
 
     <a href="javascript:checkAllFamilies();" onclick="checkAllFamilies()">check all</a> &nbsp; &nbsp; <a href="javascript:uncheckAllFamilies();" onclick="uncheckAllFamilies();">uncheck all</a><br>
 
@@ -1053,6 +1066,7 @@
 <table class="reactionList hide_comment hide_kinetics hide_chemkin">
     <tr><th>Index</th><th colspan="3" style="text-align: center;">Reaction</th><th>Family</th></tr>
     
+<<<<<<< Updated upstream
     <tr class="reaction R_Addition_MultipleBond">
         <td class="index"><a href="http://rmg.mit.edu/database/kinetics/reaction/reactant1=1%20C%20u0%20p0%20c0%20{4,S}%20{6,S}%20{10,S}%20{11,S};2%20C%20u0%20p0%20c0%20{5,S}%20{7,S}%20{12,S}%20{13,S};3%20C%20u0%20p0%20c0%20{8,S}%20{9,S}%20{14,S}%20{15,S};4%20C%20u0%20p0%20c0%20{1,S}%20{16,S}%20{17,S}%20{18,S};5%20C%20u0%20p0%20c0%20{2,S}%20{19,S}%20{20,S}%20{21,S};6%20C%20u0%20p0%20c0%20{1,S}%20{8,D}%20{22,S};7%20C%20u0%20p0%20c0%20{2,S}%20{9,D}%20{25,S};8%20C%20u0%20p0%20c0%20{3,S}%20{6,D}%20{23,S};9%20C%20u0%20p0%20c0%20{3,S}%20{7,D}%20{24,S};10%20H%20u0%20p0%20c0%20{1,S};11%20H%20u0%20p0%20c0%20{1,S};12%20H%20u0%20p0%20c0%20{2,S};13%20H%20u0%20p0%20c0%20{2,S};14%20H%20u0%20p0%20c0%20{3,S};15%20H%20u0%20p0%20c0%20{3,S};16%20H%20u0%20p0%20c0%20{4,S};17%20H%20u0%20p0%20c0%20{4,S};18%20H%20u0%20p0%20c0%20{4,S};19%20H%20u0%20p0%20c0%20{5,S};20%20H%20u0%20p0%20c0%20{5,S};21%20H%20u0%20p0%20c0%20{5,S};22%20H%20u0%20p0%20c0%20{6,S};23%20H%20u0%20p0%20c0%20{8,S};24%20H%20u0%20p0%20c0%20{9,S};25%20H%20u0%20p0%20c0%20{7,S};__reactant2=multiplicity%202;1%20O%20u1%20p2%20c0%20{2,S};2%20H%20u0%20p0%20c0%20{1,S};__product1=multiplicity%202;1%20H%20u0%20p0%20c0%20{18,S};2%20H%20u0%20p0%20c0%20{24,S};3%20H%20u0%20p0%20c0%20{23,S};4%20H%20u0%20p0%20c0%20{15,S};5%20H%20u0%20p0%20c0%20{15,S};6%20H%20u0%20p0%20c0%20{21,S};7%20H%20u0%20p0%20c0%20{21,S};8%20H%20u0%20p0%20c0%20{27,S};9%20H%20u0%20p0%20c0%20{17,S};10%20H%20u0%20p0%20c0%20{23,S};11%20H%20u0%20p0%20c0%20{18,S};12%20O%20u0%20p2%20c0%20{13,S}%20{17,S};13%20H%20u0%20p0%20c0%20{12,S};14%20H%20u0%20p0%20c0%20{25,S};15%20C%20u0%20p0%20c0%20{4,S}%20{5,S}%20{16,S}%20{18,S};16%20H%20u0%20p0%20c0%20{15,S};17%20C%20u0%20p0%20c0%20{9,S}%20{12,S}%20{18,S}%20{27,S};18%20C%20u0%20p0%20c0%20{1,S}%20{11,S}%20{15,S}%20{17,S};19%20H%20u0%20p0%20c0%20{26,S};20%20H%20u0%20p0%20c0%20{24,S};21%20C%20u0%20p0%20c0%20{6,S}%20{7,S}%20{22,S}%20{24,S};22%20H%20u0%20p0%20c0%20{21,S};23%20C%20u0%20p0%20c0%20{3,S}%20{10,S}%20{25,S}%20{27,S};24%20C%20u0%20p0%20c0%20{2,S}%20{20,S}%20{21,S}%20{26,S};25%20C%20u0%20p0%20c0%20{14,S}%20{23,S}%20{26,D};26%20C%20u0%20p0%20c0%20{19,S}%20{24,S}%20{25,D};27%20C%20u1%20p0%20c0%20{8,S}%20{17,S}%20{23,S};" title="Search on RMG website" class="searchlink">47.</a></td>
         <td class="reactants"><a href="http://rmg.mit.edu/database/molecule/1%20C%20u0%20p0%20c0%20{4,S}%20{6,S}%20{10,S}%20{11,S};2%20C%20u0%20p0%20c0%20{5,S}%20{7,S}%20{12,S}%20{13,S};3%20C%20u0%20p0%20c0%20{8,S}%20{9,S}%20{14,S}%20{15,S};4%20C%20u0%20p0%20c0%20{1,S}%20{16,S}%20{17,S}%20{18,S};5%20C%20u0%20p0%20c0%20{2,S}%20{19,S}%20{20,S}%20{21,S};6%20C%20u0%20p0%20c0%20{1,S}%20{8,D}%20{22,S};7%20C%20u0%20p0%20c0%20{2,S}%20{9,D}%20{25,S};8%20C%20u0%20p0%20c0%20{3,S}%20{6,D}%20{23,S};9%20C%20u0%20p0%20c0%20{3,S}%20{7,D}%20{24,S};10%20H%20u0%20p0%20c0%20{1,S};11%20H%20u0%20p0%20c0%20{1,S};12%20H%20u0%20p0%20c0%20{2,S};13%20H%20u0%20p0%20c0%20{2,S};14%20H%20u0%20p0%20c0%20{3,S};15%20H%20u0%20p0%20c0%20{3,S};16%20H%20u0%20p0%20c0%20{4,S};17%20H%20u0%20p0%20c0%20{4,S};18%20H%20u0%20p0%20c0%20{4,S};19%20H%20u0%20p0%20c0%20{5,S};20%20H%20u0%20p0%20c0%20{5,S};21%20H%20u0%20p0%20c0%20{5,S};22%20H%20u0%20p0%20c0%20{6,S};23%20H%20u0%20p0%20c0%20{8,S};24%20H%20u0%20p0%20c0%20{9,S};25%20H%20u0%20p0%20c0%20{7,S};"><img src="species/nonadiene(1).png" alt="nonadiene(1)" title="nonadiene(1), MW = 124.22 g/mol"></a> + <a href="http://rmg.mit.edu/database/molecule/multiplicity%202;1%20O%20u1%20p2%20c0%20{2,S};2%20H%20u0%20p0%20c0%20{1,S};"><img src="species/OH(2).png" alt="OH(2)" title="OH(2), MW = 17.01 g/mol"></a></td>
@@ -2621,6 +2635,8 @@ S(480)+S(128)=C9H15(8)+S(532)                       2.086e-03 4.623     36.696
         <td colspan="4">Estimated using template (O-HCs,CsJ-CsCsH) for rate rule (O-HCs(CdCsH),CsJ-CsCsH)</td>
     </tr>
     
+=======
+>>>>>>> Stashed changes
 
 </table>
 
